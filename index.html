@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bandbreite – Physio-Übungen nach Krankheitsbild</title>
+  <meta name="description" content="Übungen aus der Physiotherapie-Ausbildung, zugeordnet zu Krankheits- und Rehabildern in sieben Fachbereichen.">
+  <meta name="theme-color" content="#F1F3F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141A1E" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preload" href="fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/bricolage-grotesque-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="Bandbreite – Startseite">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand-name">Bandbreite</span>
+    </a>
+    <nav class="topnav" aria-label="Hauptnavigation">
+      <a href="#/" data-tab="start">Fachbereiche</a>
+      <a href="#/uebungen" data-tab="uebungen">Übungen</a>
+      <a href="#/suche" data-tab="suche">Suche</a>
+      <a href="#/merkliste" data-tab="merkliste">Merkliste <span class="count" data-merk-count></span></a>
+      <a href="#/info" data-tab="info">Info</a>
+    </nav>
+    <a class="info-link" href="#/info" data-tab="info" aria-label="Info und Hinweise"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></a>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <noscript><p class="wrap">Diese App braucht JavaScript.</p></noscript>
+  </main>
+
+  <nav class="tabbar" aria-label="Navigation">
+    <a href="#/" data-tab="start"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5h18M3 12h18M3 17.5h18"/></svg>Fachbereiche</a>
+    <a href="#/uebungen" data-tab="uebungen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM9 9h6M9 13h6"/></svg>Übungen</a>
+    <a href="#/suche" data-tab="suche"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6"/><path d="m15 15 5 5"/></svg>Suche</a>
+    <a href="#/merkliste" data-tab="merkliste"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3.5h10v17l-5-3.5-5 3.5z"/></svg>Merkliste<span class="count" data-merk-count></span></a>
+  </nav>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <!-- Daten: Reihenfolge beachten, kategorien.js zuerst -->
+  <script src="data/kategorien.js"></script>
+  <script src="data/uebungen/01-atmung-herz-prophylaxe.js"></script>
+  <script src="data/uebungen/02-adl-kraft-koordination.js"></script>
+  <script src="data/uebungen/03-mobilisation-dehnung.js"></script>
+  <script src="data/uebungen/04-pnf-neuro-paedi.js"></script>
+  <script src="data/uebungen/05-beckenboden-psyche.js"></script>
+  <script src="data/krankheitsbilder/innere.js"></script>
+  <script src="data/krankheitsbilder/neuro.js"></script>
+  <script src="data/krankheitsbilder/paedi.js"></script>
+  <script src="data/krankheitsbilder/gyn.js"></script>
+  <script src="data/krankheitsbilder/chirurgie.js"></script>
+  <script src="data/krankheitsbilder/ortho.js"></script>
+  <script src="data/krankheitsbilder/psych.js"></script>
+  <!-- App -->
+  <script src="js/app.js"></script>
+</body>
+</html>
