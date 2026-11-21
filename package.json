@@ -1,0 +1,11 @@
+{
+  "name": "bandbreite-physio-uebungen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Physiotherapie-Übungen nach Krankheits- und Rehabild – statische Web-App (PWA) ohne Build-Schritt.",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "start": "npx --yes http-server -c-1 -p 8080 ."
+  },
+  "license": "MIT"
+}
