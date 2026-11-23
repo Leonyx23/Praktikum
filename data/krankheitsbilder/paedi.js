@@ -71,7 +71,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Älteres Kind",
-        uebungen: ["bobath-sitz-gewichtsverlagerung", "bobath-bewegungsuebergaenge", "sprunggelenk-dex-pflex", "dehnung-wade", "einbeinstand", "stepper", "pnf-mattenprogramm", ["kgt-sprunggelenk-bl", "Dorsalextension: Spitzfußprophylaxe"], ["kgt-huefte-sl", "Abduktion und Extension gegen Adduktoren- und Beugespastik"], ["kgt-knie-rl", "Volle Extension erhalten (Ischios)"]]
+        uebungen: ["bobath-sitz-gewichtsverlagerung", "bobath-bewegungsuebergaenge", "sprunggelenk-dex-pflex", "dehnung-wade", "einbeinstand", "stepper", "pnf-mattenprogramm", ["kgt-sprunggelenk-bl", "Dorsalextension: Spitzfußprophylaxe"], ["kgt-huefte-sl", "Abduktion und Extension gegen Adduktoren- und Beugespastik"], ["kgt-knie-rl", "Volle Extension erhalten (Ischios)"], ["feldenkrais-hand-fuss", "Rechts-links-Orientierung und Rotation"], ["drachen-geschichte", "Spielerisch An- und Entspannen"]]
       }
     ],
     quelle: ["KG Pädi – Handling / Schoßbehandlung", "KG Pädi – Pädi Einführung", "Bobath – Einführung"]
@@ -86,7 +86,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["schoss-kontakt", "hand-fuss", "bauchlage-erleichtern", "krabbelstand", "bl-in-sl", "tragevarianten"]
+        uebungen: ["schoss-kontakt", "hand-fuss", "bauchlage-erleichtern", "krabbelstand", "bl-in-sl", "tragevarianten", ["fbl-cowboy", "Rumpfaktivität auf dem Ball"], "feldenkrais-hochhaus", ["hustenhilfe", "Bei schwachem Hustenstoß (z. B. neuromuskuläre Erkrankung)"]]
       }
     ],
     quelle: ["KG Pädi – Handling / Schoßbehandlung", "KG Pädi – Motorische Entwicklung 4–6 Monate"]
@@ -116,7 +116,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["umlagerung", ["kontaktatmung", "Beim Säugling über Druck an Sternum/Rippen (Schoßbehandlung)"], "schoss-kontakt", "lippenbremse", "huffing", "drainagelagerung", "atemtrainer"]
+        uebungen: ["umlagerung", ["kontaktatmung", "Beim Säugling über Druck an Sternum/Rippen (Schoßbehandlung)"], "schoss-kontakt", "lippenbremse", "huffing", "drainagelagerung", "atemtrainer", "atemspiele-kinder", ["toenen-ptkm", "Summen und Tönen als Spiel"], ["klopfungen", "Gedämpft klopfen"], ["reizhusten-atemhilfen", "Rückenstreichen lenkt vom Hustenreiz ab"], "nasendusche", "inhalation-kinder", ["hustenhilfe", "Ekel vor Sekret nehmen (Zielspucken)"], "ausatem-sichtbar"]
       }
     ],
     quelle: ["KG Innere – Lunge 3", "KG Pädi – Handling / Schoßbehandlung"]
@@ -131,7 +131,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["atemerleichternde-stellungen", "lippenbremse", "kontaktatmung", "huffing", "thoraxmobilisation", "dreh-dehnlage", "peak-flow-schulung", "gehen-richtungswechsel"]
+        uebungen: ["atemerleichternde-stellungen", "lippenbremse", "kontaktatmung", "huffing", "thoraxmobilisation", "dreh-dehnlage", "peak-flow-schulung", "gehen-richtungswechsel", "atemspiele-kinder", "inhalation-kinder", ["reizhusten-atemhilfen", "Atem kurz anhalten, Rücken streichen"], ["drachen-geschichte", "Entspannung"], ["fingerkuppendruck", "Handwurzelgriff bei beginnender Enge"]]
       }
     ],
     quelle: ["KG Innere – Lunge 2 (Asthma)"]
@@ -146,7 +146,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["inhalation-reihenfolge", "autogene-drainage", "oszillierendes-pep", "acbt", "huffing", "drainagelagerung", "thoraxmobilisation", "ergometer"]
+        uebungen: ["inhalation-reihenfolge", "autogene-drainage", "oszillierendes-pep", "acbt", "huffing", "drainagelagerung", "thoraxmobilisation", "ergometer", "pep-maske", "toenen-ptkm", "selbstklopfungen", "klopfungen", ["fbl-cowboy", "Oder Trampolin"], "fbl-seeigel", "fbl-galionsfigur", "fbl-eslein", ["fbl-seejungfrau-goldfisch", "Nur für gut belastbare Jugendliche"], "statische-dehnstellungen", "brustdrehlage", "atemspiele-kinder", "inhalation-kinder", "nasendusche", ["hustenhilfe", "Ekel vor Sekret spielerisch nehmen"], ["hivamat", "Ergänzend, falls vorhanden"]]
       }
     ],
     quelle: ["KG Innere – Lunge 2", "KG Innere – Lunge 3", "KG Innere – Bronchiektasen-Präsentation"]
@@ -161,7 +161,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["superman-theraband", "bridging-theraband", "bruegger-rumpf", "rudern-theraband", ["dreh-dehnlage", "Gedehnte Seite belüften"], "thoraxmobilisation", "pnf-mattenprogramm", "pnf-lifting", ["kgt-schulter-sitz", "Resistiv: Flexion und Außenrotation für die Aufrichtung"]]
+        uebungen: ["superman-theraband", "bridging-theraband", "bruegger-rumpf", "rudern-theraband", ["dreh-dehnlage", "Gedehnte Seite belüften"], "thoraxmobilisation", "pnf-mattenprogramm", "pnf-lifting", ["kgt-schulter-sitz", "Resistiv: Flexion und Außenrotation für die Aufrichtung"], "feldenkrais-hochhaus", "aufrechter-sitz", "ws-vierfuessler", "fbl-hula-hula", "fbl-galionsfigur", ["statische-dehnstellungen", "Päckchenlage, Babygiraffe, Knoten"]]
       }
     ],
     quelle: ["Theraband – Rumpfstabilisation", "Theraband – Thera-Band-Grundübungen nach Brügger", "KG Innere – Lunge 1"]
@@ -176,7 +176,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["igelball-fussarbeit", "dynamisches-gehen", ["ring-fuss-sitz", "Ring mit Zehen aufheben und einspreizen"], "pro-supination-ball", "wadenpresse", "einbeinstand", "beinachse-spiegel", ["kgt-sprunggelenk-bl", "Resistiv: Supination kräftigen"]]
+        uebungen: ["igelball-fussarbeit", "dynamisches-gehen", ["ring-fuss-sitz", "Ring mit Zehen aufheben und einspreizen"], "pro-supination-ball", "wadenpresse", "einbeinstand", "beinachse-spiegel", ["kgt-sprunggelenk-bl", "Resistiv: Supination kräftigen"], "feldenkrais-krokodilfuesse", ["feldenkrais-hand-fuss", "Freiheitsstatue: Fußhöhle im Einbeinstand"]]
       }
     ],
     quelle: ["KG Gyn – Übungen für Beckenbodentraining", "KG Innere – Hockergymnastik", "MTT – Gruppe 3"]

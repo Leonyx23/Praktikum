@@ -5,7 +5,7 @@ den Krankheits- und Rehabildern in sieben Fachbereichen zu:
 
 | Fachbereich | Farbe (Thera-Band) | Krankheitsbilder |
 |---|---|---|
-| Innere Medizin | rot | 19 |
+| Innere Medizin | rot | 20 |
 | Neurologie | blau | 8 |
 | Pädiatrie | gelb | 11 |
 | Gynäkologie | grün | 11 |
@@ -13,7 +13,7 @@ den Krankheits- und Rehabildern in sieben Fachbereichen zu:
 | Orthopädie | silber | 16 |
 | Psychologie | gold | 9 |
 
-**265 Übungen, 85 Krankheits- und Rehabilder.** Viele Übungen kommen mehrfach vor – auch über Fachbereiche hinweg
+**323 Übungen, 86 Krankheits- und Rehabilder.** Viele Übungen kommen mehrfach vor – auch über Fachbereiche hinweg
 (z. B. *Bridging* in Chirurgie, Neurologie, Orthopädie und Innere Medizin). Wo die Unterlagen Phasen vorgeben,
 sind die Übungen danach gegliedert (Heidelberger Modell, Tage/Wochen nach OP, Belastungsstufen).
 
@@ -24,6 +24,9 @@ sind die Übungen danach gegliedert (Heidelberger Modell, Tage/Wochen nach OP, B
   allen Krankheitsbildern, bei denen die Übung eingesetzt wird
 - **KG-Techniken** (Schulter, Ellbogen, Hüfte, Knie, Sprunggelenk) mit proximaler und distaler Hand,
   weiterlaufender Bewegung, Fixation und resistivem Griff je Bewegungsrichtung
+- **Atemtherapie** aus dem Kursordner und dem Lehrbuch Rutte/Sturm: passive Griffe (Mäuschengriff, Gabelgriff,
+  Klopfungen …), Ein- und Ausatemtechniken, Husten- und Reizhustentechniken, Hilfsmittel (PEP-Maske, Threshold),
+  Thoraxmobilisation inkl. Pezziball-Übungen nach FBL, Intervallgehen, Entspannung und Feldenkrais für Kinder
 - **Alle Übungen** mit Filtern nach Fachbereich, Übungsart und „nur Eigenübungen“
 - **Suche** über Krankheitsbilder und Übungen (Umlaute egal)
 - **Merkliste** zum Sammeln von Übungen, druckbar als Übungsblatt (Heimprogramm)

@@ -6,7 +6,7 @@
  * (gelb – rot – grün – blau – schwarz – silber – gold).
  */
 window.PT = {
-  version: "1.1.0",
+  version: "1.2.0",
 
   fachbereiche: [
     {

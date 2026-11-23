@@ -754,11 +754,11 @@ PT.uebungen.push(
     name: "Tai-Chi, Qigong und sanftes Yoga",
     art: "koordination",
     aste: "Stand oder Sitz, gern in der Gruppe",
-    ablauf: ["Langsame, fließende Bewegungen mit ruhiger Atmung.", "Gewichtsverlagerungen und Drehungen kontrolliert ausführen."],
+    ablauf: ["Langsame, fließende Bewegungen mit ruhiger Atmung.", "Gewichtsverlagerungen und Drehungen kontrolliert ausführen.", "Qigong: leicht, langsam, fließend und kreisförmig, oft Tierbewegungen nachempfunden; Wechsel von Üben und Verweilen. Yoga-Sequenzen zur Atmung z. B. Kobra, Katze, Krokodil."],
     dosierung: "1–2 × pro Woche, 20–45 Minuten.",
     wirkung: ["Beinkraft, Gleichgewicht und Gang", "Entspannung, lindert muskuloskelettale Schmerzen"],
     heim: true,
-    quelle: ["KG Neuro – Morbus Parkinson", "KG Psych – Merkblatt Depression"]
+    quelle: ["KG Neuro – Morbus Parkinson", "KG Psych – Merkblatt Depression", "Atemtherapie – 7. Entspannung"]
   },
   {
     id: "tanzen",

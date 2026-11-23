@@ -10,7 +10,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Pneumonieprophylaxe",
-        uebungen: ["kontaktatmung", "schnueffelnde-einatmung", "gaehnende-einatmung", "lippenbremse", "packegriffe", "icr-ausstreichungen", "atemtrainer", "umlagerung"]
+        uebungen: ["kontaktatmung", "schnueffelnde-einatmung", "gaehnende-einatmung", "lippenbremse", "packegriffe", "icr-ausstreichungen", "atemtrainer", "umlagerung", "einatmung-halten", "nasenstenose", ["hustenhilfe", "Wunde fixieren"], "reizhusten-atemhilfen", "toenen-ptkm", "dehnzuege", "dehnung-koerperwaende", ["pnf-atmung", "Costal oder diaphragmal, nicht bei frischer Sternotomie"]]
       },
       {
         titel: "Thromboseprophylaxe",
@@ -33,7 +33,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Liegephase (RL)",
-        uebungen: ["venenpumpe", ["schleifende-ferse", "Gegensinnig als Kreislaufanregung; betroffen nach Freigabe"], "isometrie-gesamt", ["armuebungen-bett", "Mit dosiertem Widerstand"], "pnf-scapula-post-depression", "kontaktatmung", "brunkow", "hautinspektion-fingertest", "kreislaufanregung-aufstehen"]
+        uebungen: ["venenpumpe", ["schleifende-ferse", "Gegensinnig als Kreislaufanregung; betroffen nach Freigabe"], "isometrie-gesamt", ["armuebungen-bett", "Mit dosiertem Widerstand"], "pnf-scapula-post-depression", "kontaktatmung", "brunkow", "hautinspektion-fingertest", "kreislaufanregung-aufstehen", ["dehnzuege", "Nur am Arm – kein Zug am Bein"], "einatmung-halten"]
       },
       {
         titel: "Beispiel: stabile Os-pubis-Fraktur Typ A, 5. Tag",
@@ -95,7 +95,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "1.–3. Tag post-op",
-        uebungen: ["venenpumpe", ["schleifende-ferse", "Beidseits"], "abduktion-schleifend", "brunkow", "isometrie-gesamt", ["armuebungen-bett", "Theraband – weiterlaufende Bewegung beachten"], "transfer-ueber-seitlage", "sicherer-stand", "kreislaufanregung-aufstehen"]
+        uebungen: ["venenpumpe", ["schleifende-ferse", "Beidseits"], "abduktion-schleifend", "brunkow", "isometrie-gesamt", ["armuebungen-bett", "Theraband – weiterlaufende Bewegung beachten"], "transfer-ueber-seitlage", "sicherer-stand", "kreislaufanregung-aufstehen", "einatmung-halten"]
       },
       {
         titel: "4.–7. Tag",

@@ -10,11 +10,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Wahrnehmung und Atmung",
-        uebungen: ["fadenkreuz", "seerose", "stenosierte-ausatmung-ch", "bauchatmung", "atmung-4-6"]
+        uebungen: ["fadenkreuz", "seerose", "stenosierte-ausatmung-ch", "bauchatmung", "atmung-4-6", "auflageflaeche-atemstrom", "middendorf-hand", ["fingerkuppendruck", "Ring- und kleiner Finger lenken den Atem in den Beckenraum"], "aktives-dehnen"]
       },
       {
         titel: "Haltung, Becken und Füße",
-        uebungen: ["igelball-fussarbeit", "dynamisches-stehen", "beckenkippung", "ball-spiel-grenzen", "goldene-kugel", "knie-ellbogen-mobilitaet", "malende-sitzknochen"]
+        uebungen: ["igelball-fussarbeit", "dynamisches-stehen", "beckenkippung", "ball-spiel-grenzen", "goldene-kugel", "knie-ellbogen-mobilitaet", "malende-sitzknochen", "beckenacht", "schinkengang", "aufrechter-sitz", "fbl-hula-hula"]
       },
       {
         titel: "Venen und Alltag",
@@ -56,7 +56,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Erste Tage",
-        uebungen: ["venenpumpe", "kontaktatmung", ["bauchatmung", "Hände schützend auf den Unterbauch"], ["hustendreh", "Unterbauch mit beiden Händen halten"], "transfer-ueber-seitlage", "seerose", ["kreislaufanregung-aufstehen", "Vor dem ersten Aufstehen nach der OP"]]
+        uebungen: ["venenpumpe", "kontaktatmung", ["bauchatmung", "Hände schützend auf den Unterbauch"], ["hustendreh", "Unterbauch mit beiden Händen halten"], "transfer-ueber-seitlage", "seerose", ["kreislaufanregung-aufstehen", "Vor dem ersten Aufstehen nach der OP"], ["hustenhilfe", "Wunde am Unterbauch mit Händen oder Kissen fixieren"], "reizhusten-atemhilfen", "einatmung-halten", ["aufstehen-heben-treppe-ausatmung", "Über die Seitlage, mit der Ausatmung"]]
       },
       {
         titel: "Im Verlauf",
@@ -102,11 +102,11 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Pezziball",
-        uebungen: ["ball-spiel-grenzen", "goldene-kugel", "abwalzen-ball", "rueckhandbremse", "wandwalze", "hirtenstab", "sitzpendel"]
+        uebungen: ["ball-spiel-grenzen", "goldene-kugel", "abwalzen-ball", "rueckhandbremse", "wandwalze", "hirtenstab", "sitzpendel", "fbl-hula-hula"]
       },
       {
         titel: "Alltag",
-        uebungen: ["kontinentes-buecken-heben", "hustendreh", "toilettenverhalten"]
+        uebungen: ["kontinentes-buecken-heben", "hustendreh", "toilettenverhalten", ["aufstehen-heben-treppe-ausatmung", "Beckenboden anspannen, mit der Ausatmung heben"]]
       }
     ],
     quelle: ["KG Gyn – Übungen für Beckenbodentraining", "KG Gyn – Komplikationen im Wochenbett", "KG Gyn – Beckenbodenschonende Verhaltensweisen"]
@@ -159,7 +159,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Alltag",
-        uebungen: ["hustendreh", "kontinentes-buecken-heben", "toilettenverhalten"]
+        uebungen: ["hustendreh", "kontinentes-buecken-heben", "toilettenverhalten", ["aufstehen-heben-treppe-ausatmung", "Ausatmen statt pressen, Beckenboden vorher anspannen"]]
       }
     ],
     quelle: ["KG Gyn – Übungen für Beckenbodentraining", "KG Gyn – Beckenbodenschonende Verhaltensweisen", "KG Gyn – Übungsbeispiele rhythmischer Koordination"]
@@ -174,7 +174,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["fadenkreuz", "malende-sitzknochen", "stenosierte-ausatmung-ch", "therapeutische-bauchlage", "knie-ellbogen-mobilitaet", "boden-gibt-kraft", "wandwalze", "toilettenverhalten", "kontinentes-buecken-heben"]
+        uebungen: ["fadenkreuz", "malende-sitzknochen", "stenosierte-ausatmung-ch", "therapeutische-bauchlage", "knie-ellbogen-mobilitaet", "boden-gibt-kraft", "wandwalze", "toilettenverhalten", "kontinentes-buecken-heben", ["aufstehen-heben-treppe-ausatmung", "Pressen vermeiden"]]
       }
     ],
     quelle: ["KG Gyn – Der Beckenboden im Fadenkreuz", "KG Gyn – Übungen für Beckenbodentraining", "KG Gyn – Komplikationen im Wochenbett"]
@@ -204,7 +204,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["atmung-4-6", "body-scan", "walking", "stillzeit-uebungen", "resilienz"]
+        uebungen: ["atmung-4-6", "body-scan", "walking", "stillzeit-uebungen", "resilienz", "auflageflaeche-atemstrom"]
       }
     ],
     quelle: ["KG Gyn – Komplikationen im Wochenbett", "KG Psych – Merkblatt Depression"]

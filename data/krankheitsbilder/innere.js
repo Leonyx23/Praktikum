@@ -33,7 +33,7 @@ PT.krankheitsbilder.push(
           "armuebungen-liegen",
           "bettkante-stuhl",
           ["gehen-ebene", "Wenn der AZ sich bessert, nach Heidelberger Modell Stufe II"]
-        ]
+        , "auflageflaeche-atemstrom", ["sinnvolle-pausen", "Nur im kompensierten Stadium"], "aufstehen-heben-treppe-ausatmung"]
       }
     ],
     quelle: ["KG Innere – Herzinsuffizienz", "KG Innere – Herz-Klausurzusammenfassung", "KG Innere – Praxis Herz", "KG Innere – Klausur ZF"]
@@ -58,7 +58,7 @@ PT.krankheitsbilder.push(
           ["gehen-ebene", "Aerobe Ausdauer, Lebensstiländerung"],
           ["ergometer", "Wattfreigabe durch den Arzt"],
           "atmung-4-6"
-        ]
+        , "intervallgehen", "sinnvolle-pausen", ["aufstehen-heben-treppe-ausatmung", "Pressatmung vermeiden"]]
       }
     ],
     quelle: ["KG Innere – KHK", "KG Innere – Klausur ZF", "KG Innere – Herz-Klausurzusammenfassung"]
@@ -81,7 +81,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Stufe III (ab ca. 6. Tag, 75–100 Watt): Fortbewegung",
-        uebungen: ["marschieren-stand", "stepper", "sidestep-kniebeuge", "theraband-oex-sitz", ["treppensteigen", "Falls indiziert – kein aerobes Ausdauertraining"], ["gehen-ebene", "„Walk and Talk“"]]
+        uebungen: ["marschieren-stand", "stepper", "sidestep-kniebeuge", "theraband-oex-sitz", ["treppensteigen", "Falls indiziert – kein aerobes Ausdauertraining"], ["gehen-ebene", "„Walk and Talk“"], ["sinnvolle-pausen", "Puls in den Pausen messen"], ["aufstehen-heben-treppe-ausatmung", "Treppe mit der Ausatmung"]]
       }
     ],
     quelle: ["KG Innere – Herzinfarkt", "KG Innere – Praxis Herz", "KG Innere – Klausur ZF", "KG Innere – Herz-Klausurzusammenfassung"]
@@ -96,7 +96,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Ausdauer und Kraft",
-        uebungen: ["gehen-ebene", "ergometer", "marschieren-stand", "stepper", "theraband-oex-sitz", "rudern-theraband", "sidestep-kniebeuge", "puls-selbstkontrolle"]
+        uebungen: ["gehen-ebene", "ergometer", "marschieren-stand", "stepper", "theraband-oex-sitz", "rudern-theraband", "sidestep-kniebeuge", "puls-selbstkontrolle", "intervallgehen", ["sechs-minuten-gehen", "Eingangs- und Verlaufstest"]]
       },
       {
         titel: "Stiefmütterchen-Typ: Vertrauen in den eigenen Körper",
@@ -104,7 +104,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Managertyp: Entspannen und dosieren lernen",
-        uebungen: ["fantasiereise", "aufrichten-schulterkreisen", "dehnung-trapezius", "rudern-theraband", "pmr", "atmung-4-6"]
+        uebungen: ["fantasiereise", "aufrichten-schulterkreisen", "dehnung-trapezius", "rudern-theraband", "pmr", "atmung-4-6", "autogenes-training", "auflageflaeche-atemstrom", ["sinnvolle-pausen", "Pausen bewusst gestalten"]]
       }
     ],
     quelle: ["KG Innere – Klausur ZF", "KG Innere – Praxis Herz", "KG Innere – Herzinfarkt"]
@@ -172,11 +172,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Frühphase",
-        uebungen: ["kontaktatmung", ["hustentechnik", "Husten mit Sternumschutz"], "atemtrainer", "schnelle-lagerung", ["transfer-ueber-seitlage", "Drehen en bloc, nicht mit Armen hochdrücken"], "venenpumpe", ["hochlagerung", "Bein mit Venenentnahme"], ["kreislaufanregung-aufstehen", "Aufstehen ohne Abstützen mit den Armen"]]
+        uebungen: ["kontaktatmung", ["hustentechnik", "Husten mit Sternumschutz"], "atemtrainer", "schnelle-lagerung", ["transfer-ueber-seitlage", "Drehen en bloc, nicht mit Armen hochdrücken"], "venenpumpe", ["hochlagerung", "Bein mit Venenentnahme"], ["kreislaufanregung-aufstehen", "Aufstehen ohne Abstützen mit den Armen"], ["hustenhilfe", "Brustbein beim Husten mit Händen oder Kissen fixieren"], "reizhusten-atemhilfen", "nasenstenose", "einatmung-halten", ["aufrechter-sitz", "Ohne Beinschütteln (Lehrbuchbeispiel ACVB, 7. Tag)"]]
       },
       {
         titel: "Mobilisation",
-        uebungen: [["hockergymnastik", "Schmerzfrei, Arme ≤ 90°"], "gehen-ebene", "puls-selbstkontrolle", "aufrichten-schulterkreisen", ["narbenmobilisation", "Nach Wundheilung"]]
+        uebungen: [["hockergymnastik", "Schmerzfrei, Arme ≤ 90°"], "gehen-ebene", "puls-selbstkontrolle", "aufrichten-schulterkreisen", ["narbenmobilisation", "Nach Wundheilung"], ["sinnvolle-pausen", "Lehrbuchbeispiel: Belastung selbst einschätzen lernen"], ["intervallgehen", "30-s-15-s, später 3-min-1-min"], "schinkengang", "beckenacht", ["massage-atemtherapie", "Packegriffe unterer Thoraxrand, leichte Trapezius-Knetung – auch durch den Patienten"], ["aufstehen-heben-treppe-ausatmung", "Nicht mit den Armen abdrücken"]]
       }
     ],
     quelle: ["KG Innere – Herzchirurgie", "KG Innere – Herz-Klausurzusammenfassung"]
@@ -191,11 +191,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Im Anfall",
-        uebungen: ["atemerleichternde-stellungen", "lippenbremse", "atmung-4-6"]
+        uebungen: ["atemerleichternde-stellungen", "lippenbremse", "atmung-4-6", ["reizhusten-atemhilfen", "Hustenattacken abfangen, nicht gegen die Enge anhusten"], ["fingerkuppendruck", "Handwurzelgriff verlängert den Ausatem"]]
       },
       {
         titel: "Im anfallsfreien Intervall",
-        uebungen: ["kontaktatmung", "huffing", "hustentechnik", "pmr", "puls-selbstkontrolle", ["ergometer", "Intervalltraining"], "dreh-dehnlage", "thoraxmobilisation", "packegriffe", "dehnung-pectoralis", "peak-flow-schulung"]
+        uebungen: ["kontaktatmung", "huffing", "hustentechnik", "pmr", "puls-selbstkontrolle", ["ergometer", "Intervalltraining"], "dreh-dehnlage", "thoraxmobilisation", "packegriffe", "dehnung-pectoralis", "peak-flow-schulung", ["aktives-dehnen", "Im Sitzen und im Stehen (Lehrbuchbeispiel Asthma)"], "middendorf-hand", "auflageflaeche-atemstrom", ["dehnzuege", "Gleicht den Atemrhythmus aus"], ["massage-atemtherapie", "Packegriffe und Knetungen an hypertonen Muskeln"], ["intervallgehen", "Bei belastungsabhängiger Obstruktion mit Lippenbremse"], "aufstehen-heben-treppe-ausatmung"]
       }
     ],
     quelle: ["KG Innere – Lunge 2 (Asthma)"]
@@ -210,11 +210,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Sekretmanagement und Atemtechnik",
-        uebungen: ["lippenbremse", "atemerleichternde-stellungen", "schnueffelnde-einatmung", "oszillierendes-pep", "autogene-drainage", "drainagelagerung", "huffing", ["hustentechnik", "Husten gegen geschlossene Lippen dämpft den Reiz"], "heisse-rolle", "umlagerung"]
+        uebungen: ["lippenbremse", "atemerleichternde-stellungen", "schnueffelnde-einatmung", "oszillierendes-pep", "autogene-drainage", "drainagelagerung", "huffing", ["hustentechnik", "Husten gegen geschlossene Lippen dämpft den Reiz"], "heisse-rolle", "umlagerung", "pep-maske", "toenen-ptkm", "einatmung-halten", "verlaengerte-ausatmung", "manuelle-thoraxkompression", ["selbstklopfungen", "Nur ohne Osteoporose"], ["reizhusten-atemhilfen", "Bei instabilen Atemwegen statt Husten"], ["hustenhilfe", "Variante „zu hoher Druck“: mäßig einatmen, Lippenbremse, 2–3 kurze Stöße"], ["hivamat", "Ergänzend zur Detonisierung der Atemmuskulatur, falls vorhanden"], ["pnf-atmung", "Einatemmuskulatur gezielt kräftigen"]]
       },
       {
         titel: "Beweglichkeit und Belastbarkeit",
-        uebungen: ["thoraxmobilisation", "packegriffe", "dreh-dehnlage", "ergometer", "gehen-ebene", ["treppensteigen", "Mit Lippenbremse und Pausen"], "aufstehen-stuhl"]
+        uebungen: ["thoraxmobilisation", "packegriffe", "dreh-dehnlage", "ergometer", "gehen-ebene", ["treppensteigen", "Mit Lippenbremse und Pausen"], "aufstehen-stuhl", "aufrechter-sitz", "oelschiene", "bewegung-atmung-liegen", "aufstehen-heben-treppe-ausatmung", ["intervallgehen", "Mit Lippenbremse; Einstieg 15-s-15-s"], "sinnvolle-pausen", ["sechs-minuten-gehen", "Verlaufskontrolle"], ["threshold-imt", "Bei schwacher Einatemmuskulatur"], ["massage-atemtherapie", "Trapezius und Pectoralis detonisieren"]]
       }
     ],
     quelle: ["KG Innere – Lunge 3", "KG Innere – Lunge 2"]
@@ -229,15 +229,15 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Ziel 1: Sekretmobilisation und Heimprogramm",
-        uebungen: ["inhalation-reihenfolge", "oszillierendes-pep", "autogene-drainage", "acbt", ["drainagelagerung", "Unter- und Mittellappen"], "huffing"]
+        uebungen: ["inhalation-reihenfolge", "oszillierendes-pep", "autogene-drainage", "acbt", ["drainagelagerung", "Unter- und Mittellappen"], "huffing", "pep-maske", "toenen-ptkm", "selbstklopfungen", "klopfungen"]
       },
       {
         titel: "Ziel 2: Treppe und Belastbarkeit",
-        uebungen: [["ergometer", "Dauermethode 10–15 min, später 20–30 min"], ["aufstehen-stuhl", "Krafttraining Beine"], "step-up", "beinpresse", ["lippenbremse", "Unter Belastung"], "treppensteigen", "atemerleichternde-stellungen"]
+        uebungen: [["ergometer", "Dauermethode 10–15 min, später 20–30 min"], ["aufstehen-stuhl", "Krafttraining Beine"], "step-up", "beinpresse", ["lippenbremse", "Unter Belastung"], "treppensteigen", "atemerleichternde-stellungen", "aufstehen-heben-treppe-ausatmung", "intervallgehen"]
       },
       {
         titel: "Ziel 3: Alltagsaktivität",
-        uebungen: [["gehen-ebene", "Schrittziel mit Schrittzähler"], ["hustentechnik", "Hustenmanagement im Alltag"], "thoraxmobilisation", "heisse-rolle"]
+        uebungen: [["gehen-ebene", "Schrittziel mit Schrittzähler"], ["hustentechnik", "Hustenmanagement im Alltag"], "thoraxmobilisation", "heisse-rolle", ["fbl-cowboy", "Hopsen auf Ball oder Trampolin löst Sekret"]]
       }
     ],
     quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Innere – Bronchiektasen", "KG Innere – Lunge 3"]
@@ -252,16 +252,16 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Nicht ansprechbare Patienten / Intensivstation",
-        uebungen: [["umlagerung", "Alle 2 Stunden"], "atemreizgriffe", "vibrationen-thorax", "packegriffe"]
+        uebungen: [["umlagerung", "Alle 2 Stunden"], "atemreizgriffe", "vibrationen-thorax", "packegriffe", ["dehnzuege", "Passiver Einatemreiz"]]
       },
       {
         titel: "Wache Patienten",
-        uebungen: ["kontaktatmung", "schnueffelnde-einatmung", "gaehnende-einatmung", "lippenbremse", "huffing", "atemtrainer", "drainagelagerung", "fussbewegungsserie", "transfer-ueber-seitlage", ["kreislaufanregung-aufstehen", "Vor jeder Mobilisation"]]
+        uebungen: ["kontaktatmung", "schnueffelnde-einatmung", "gaehnende-einatmung", "lippenbremse", "huffing", "atemtrainer", "drainagelagerung", "fussbewegungsserie", "transfer-ueber-seitlage", ["kreislaufanregung-aufstehen", "Vor jeder Mobilisation"], "einatmung-halten", "nasenstenose", "dehnung-koerperwaende", "toenen-ptkm", ["hustenhilfe", "Bei schwachem Hustenstoß mit Thoraxkompression"]]
       },
       {
         titel: "Rekonvaleszenz (z. B. 78 J., Z. n. Pneumonie, AZ niedrig)",
         info: "PNF-Beispielstunde aus dem Kurs.",
-        uebungen: ["pnf-scapula-post-depression", "pnf-massenextension", ["bridging", "Mit Stabilisierender Umkehr"], "pnf-halleluja", "pnf-pelvis-ant-elevation", ["pnf-stuetz", "Bilateral, Agonistische Umkehr"], ["pnf-anschnall", "Mit Stretch"], "gangschule-hilfsmittel"]
+        uebungen: ["pnf-scapula-post-depression", "pnf-massenextension", ["bridging", "Mit Stabilisierender Umkehr"], "pnf-halleluja", "pnf-pelvis-ant-elevation", ["pnf-stuetz", "Bilateral, Agonistische Umkehr"], ["pnf-anschnall", "Mit Stretch"], "gangschule-hilfsmittel", "aufrechter-sitz", "bewegung-atmung-liegen", "sinnvolle-pausen", ["intervallgehen", "Einstieg 15-s-15-s"]]
       }
     ],
     quelle: ["KG Innere – Lunge 3", "KG Innere – Innere Medizin (Herr Sauer)", "PNF – Fallbeispiel 78 J. Z. n. Pneumonie", "KG Techniken – Pneumonieprophylaxe"]
@@ -276,7 +276,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["schnueffelnde-einatmung", "lippenbremse", "hustentechnik", "huffing", "kontaktatmung", "packegriffe", "heisse-rolle", "oszillierendes-pep"]
+        uebungen: ["schnueffelnde-einatmung", "lippenbremse", "hustentechnik", "huffing", "kontaktatmung", "packegriffe", "heisse-rolle", "oszillierendes-pep", ["einatmung-halten", "3–4 tiefe Atemzüge mit Halten (Lehrbuchbeispiel Bronchitis)"], ["toenen-ptkm", "Stoßweise auf P"], "verlaengerte-ausatmung", ["klopfungen", "Sanfte Fingerklopfungen auf Brustbein und oberem Brustkorb"], ["hustenhilfe", "Abhusten mit Thoraxkompression"], "reizhusten-atemhilfen", ["middendorf-hand", "Dehnen der Hand zum Abschluss"]]
       }
     ],
     quelle: ["KG Innere – Lunge 3"]
@@ -291,7 +291,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["schnueffelnde-einatmung", "gaehnende-einatmung", ["atemtrainer", "Auch umgedrehter Triflow"], "dreh-dehnlage", "drainagelagerung", "umlagerung", "packegriffe", "icr-ausstreichungen", "reitsitzbehandlung", "atemmuskeltraining", "hustentechnik"]
+        uebungen: ["schnueffelnde-einatmung", "gaehnende-einatmung", ["atemtrainer", "Auch umgedrehter Triflow"], "dreh-dehnlage", "drainagelagerung", "umlagerung", "packegriffe", "icr-ausstreichungen", "reitsitzbehandlung", "atemmuskeltraining", "hustentechnik", "nasenstenose", "einatmung-halten", "dehnung-koerperwaende", "dehnzuege", "brustdrehlage", ["statische-dehnstellungen", "Ohne Überschlag bei älteren Patienten"], "oelschiene", "ws-vierfuessler", "maeuschengriff", "gabelgriff", "anhaken", ["threshold-imt", "Nach ärztlicher Rücksprache"], ["pnf-atmung", "Costale bzw. diaphragmale Atembewegung fazilitieren"], "atemerschwerende-aste"]
       }
     ],
     quelle: ["KG Innere – Lunge 1"]
@@ -321,11 +321,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Im Bett und am Bettrand",
-        uebungen: ["umlagerung", "dekubitus-lagerung", "venenpumpe", "durchbewegen", ["bridging", "Becken heben zum Hochrutschen"], "transfer-ueber-seitlage", "bettkante-stuhl", "hautinspektion-fingertest", "hochrutschen-scherkraftarm", "kreislaufanregung-aufstehen"]
+        uebungen: ["umlagerung", "dekubitus-lagerung", "venenpumpe", "durchbewegen", ["bridging", "Becken heben zum Hochrutschen"], "transfer-ueber-seitlage", "bettkante-stuhl", "hautinspektion-fingertest", "hochrutschen-scherkraftarm", "kreislaufanregung-aufstehen", "bewegung-atmung-liegen"]
       },
       {
         titel: "Stand und Gehen",
-        uebungen: ["sicherer-stand", "aufstehen-stuhl", "gewichtsverlagerung-stand", "tandem", "einbeinstand", "gangschule-hilfsmittel", "gehen-ebene", "aufstehen-boden"]
+        uebungen: ["sicherer-stand", "aufstehen-stuhl", "gewichtsverlagerung-stand", "tandem", "einbeinstand", "gangschule-hilfsmittel", "gehen-ebene", "aufstehen-boden", ["schneckenlaufen", "Mit Sicherung"], "aufstehen-heben-treppe-ausatmung"]
       },
       {
         titel: "Gruppe",
@@ -402,5 +402,29 @@ PT.krankheitsbilder.push(
       }
     ],
     quelle: ["KG Techniken – Handout Thromboseprophylaxe", "KG Chirurgie – Prophylaxen"]
+  },
+  {
+    id: "lungenembolie",
+    fach: "innere",
+    name: "Z. n. Lungenembolie",
+    kurz: "Verschluss von Lungenarterien, meist durch ein Blutgerinnsel aus den Bein- oder Beckenvenen. Danach oft Atemnot unter Belastung, verspannte Atemhilfsmuskulatur, flache Atmung und Angst vor Anstrengung. Beispiel aus dem Lehrbuch: 68 Jahre, drei Monate nach mehreren Embolien, mit Kardiomyopathie und Hypertonie.",
+    ziele: ["Costo-abdominale Atembewegung verbessern", "Hypertone Atemhilfsmuskulatur (Trapezius, Pectoralis) detonisieren", "Ausatem- und Bauchmuskulatur kräftigen", "Ausdauer und Belastbarkeit dosiert steigern"],
+    cave: ["Belastung nur nach ärztlicher Freigabe; Zeichen einer erneuten Embolie (plötzliche Atemnot, Brustschmerz, Herzrasen, Bluthusten) sind ein Notfall", "Unter Antikoagulation keine Klopfungen, kein Schröpfen und keine kräftigen Bindegewebsgriffe (Hämatome)", "Pressatmung vermeiden", "Bei Rechtsherzbelastung oder Kardiomyopathie Puls, Blutdruck, Atemfrequenz und Borg engmaschig kontrollieren – im Beispiel stieg die Atemfrequenz beim Treppensteigen auf 48/min"],
+    phasen: [
+      {
+        titel: "Frühphase nach Freigabe",
+        uebungen: ["atemerleichternde-stellungen", "kontaktatmung", "lippenbremse", "venenpumpe", ["reizhusten-atemhilfen", "Hustenattacken vermeiden"], ["aufstehen-heben-treppe-ausatmung", "Aufstehen mit der Ausatmung statt Pressen"]]
+      },
+      {
+        titel: "Atembewegung und Detonisierung",
+        info: "Im Lehrbuchbeispiel im aufrechten Sitz: Rücken ausstreichen, Trapezius-Streichungen, Pectoralis-Zirkelungen, dann Ausatemunterstützung und Atemwahrnehmung.",
+        uebungen: [["massage-atemtherapie", "Streichungen am M. trapezius, flächige Zirkelungen am M. pectoralis"], ["manuelle-thoraxkompression", "4 × als Ausatemunterstützung, dann dosierter Widerstand gegen die Einatmung"], "basalatmung", ["phonische-atmung", "Stoßweise auf SCH-SCH-SCH"], "nasenstenose", "dehnung-koerperwaende", "ausatem-sichtbar", ["pnf-scapula-ant-elevation", "Schulterblattpattern aus SL zur Detonisierung"], ["bauchmuskeln-ausatmung", "Im Sitz"]]
+      },
+      {
+        titel: "Belastbarkeit",
+        uebungen: [["bewegung-atmung-liegen", "LWS-Flexion/Extension mit dem Atem"], "aufstehen-heben-treppe-ausatmung", ["intervallgehen", "Beginn mit 30-s-15-s-Gehen"], "sinnvolle-pausen", ["sechs-minuten-gehen", "Im Beispiel 440 m – als Verlaufskontrolle"], "puls-selbstkontrolle"]
+      }
+    ],
+    quelle: ["Atemtherapie – Buch Rutte/Sturm (Springer)"]
   }
 );

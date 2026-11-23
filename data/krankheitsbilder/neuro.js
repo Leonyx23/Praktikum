@@ -19,6 +19,11 @@ PT.krankheitsbilder.push(
       {
         titel: "KG-Techniken: passiv, assistiv und resistiv bewegen",
         uebungen: [["kgt-schulter-rl", "Hemischulter: Scapula mitbewegen, nie über 90° ziehen"], ["kgt-ellbogen-sl", "In SL auf der weniger betroffenen Seite"], ["kgt-huefte-sl", "In SL auf der weniger betroffenen Seite; nicht an der Fußsohle greifen"], "kgt-knie-rl"]
+      },
+      {
+        titel: "Atemtherapie (Pneumonieprophylaxe)",
+        info: "Nach Schlaganfall ist das Pneumonierisiko hoch (Schluckstörung, Immobilität, schwacher Husten).",
+        uebungen: ["einatmung-halten", ["dehnzuege", "Am Bein bzw. am weniger betroffenen Arm – betroffene Schulter schützen"], ["hustenhilfe", "Bei schwachem Hustenstoß"], "atemerschwerende-aste"]
       }
     ],
     quelle: ["KG Neuro – Schlaganfall/Hemiparese", "Bobath – A-Lagerung", "Bobath – Lagerung auf der weniger betroffenen Seite", "Bobath – Einführung"]
@@ -99,7 +104,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Haltung, Beweglichkeit und Gleichgewicht",
-        uebungen: ["thoraxmobilisation", "dehnung-pectoralis", "dehnung-iliopsoas", "dehnung-wade", "bruegger-rumpf", "rumpfrotation", "tandem", "einbeinstand", "pnf-lifting"]
+        uebungen: ["thoraxmobilisation", "dehnung-pectoralis", "dehnung-iliopsoas", "dehnung-wade", "bruegger-rumpf", "rumpfrotation", "tandem", "einbeinstand", "pnf-lifting", "oelschiene", "brustdrehlage", "ws-vierfuessler", "aufrechter-sitz", "beckenacht", ["toenen-ptkm", "Lautes Tönen unterstützt Stimme und Atmung"], ["hustenhilfe", "Bei schwachem Hustenstoß"]]
       },
       {
         titel: "KG-Techniken: passiv, assistiv und resistiv bewegen",
@@ -126,7 +131,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Eigenübungen",
-        uebungen: ["dehnung-wade", "dehnung-ischios", "dehnung-adduktoren", "tai-chi-qigong"]
+        uebungen: ["dehnung-wade", "dehnung-ischios", "dehnung-adduktoren", "tai-chi-qigong", ["threshold-imt", "Bei geschwächter Atemmuskulatur, ermüdungsarm dosieren"], ["hustenhilfe", "Bei schwachem Hustenstoß"], "aufstehen-heben-treppe-ausatmung", ["pnf-atmung", "Als Therapeutenmaßnahme bei schwacher Atemmuskulatur"]]
       },
       {
         titel: "KG-Techniken: passiv, assistiv und resistiv bewegen",
@@ -145,7 +150,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Frühphase",
-        uebungen: ["lagerung-sht", "umlagerung", "durchbewegen", "dekubitus-lagerung", "kontaktatmung", "atemreizgriffe", "venenpumpe", "hautinspektion-fingertest", "hochrutschen-scherkraftarm"]
+        uebungen: ["lagerung-sht", "umlagerung", "durchbewegen", "dekubitus-lagerung", "kontaktatmung", "atemreizgriffe", "venenpumpe", "hautinspektion-fingertest", "hochrutschen-scherkraftarm", ["dehnzuege", "Passiver Einatemreiz"], ["schuettelungen", "Tonusregulation, nicht am subluxierten Arm ziehen"]]
       },
       {
         titel: "Mobilisation",
@@ -168,7 +173,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["igelball-fussarbeit", "dynamisches-gehen", "tandem", "einbeinstand", "seilgang", "vier-halbe-baelle", "gewichtsverlagerung-stand", "ring-fuss-sitz", "tai-chi-qigong", ["hautinspektion-fingertest", "Füße täglich auf Druckstellen kontrollieren"], ["kgt-sprunggelenk-bl", "Resistiv: Fußheber und Peroneen kräftigen"]]
+        uebungen: ["igelball-fussarbeit", "dynamisches-gehen", "tandem", "einbeinstand", "seilgang", "vier-halbe-baelle", "gewichtsverlagerung-stand", "ring-fuss-sitz", "tai-chi-qigong", ["hautinspektion-fingertest", "Füße täglich auf Druckstellen kontrollieren"], ["kgt-sprunggelenk-bl", "Resistiv: Fußheber und Peroneen kräftigen"], ["schneckenlaufen", "Langsam abrollen und spüren, mit Sicherung"]]
       }
     ],
     quelle: ["KG Innere – Innere Medizin (Romberg-Test)", "KG Neuro – Multiple Sklerose", "KG Gyn – Übungen für Beckenbodentraining"]

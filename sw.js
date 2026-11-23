@@ -3,7 +3,7 @@
  * Nach Änderungen an Dateien die Versionsnummer erhöhen, damit
  * installierte Apps die neuen Dateien laden.
  */
-const VERSION = "bandbreite-v1.1.0";
+const VERSION = "bandbreite-v1.2.0";
 
 const FILES = [
   "./",
@@ -18,6 +18,7 @@ const FILES = [
   "data/uebungen/04-pnf-neuro-paedi.js",
   "data/uebungen/05-beckenboden-psyche.js",
   "data/uebungen/06-kg-techniken.js",
+  "data/uebungen/07-atemtherapie.js",
   "data/krankheitsbilder/innere.js",
   "data/krankheitsbilder/neuro.js",
   "data/krankheitsbilder/paedi.js",
