@@ -10,15 +10,15 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Gruppe 1: passive Maßnahmen",
-        uebungen: ["schnelle-lagerung", "body-scan", "igelball-koerperwahrnehmung", "atmung-4-6", "koerpergrenzen"]
+        uebungen: ["schnelle-lagerung", "body-scan", "igelball-koerperwahrnehmung", "atmung-4-6", "koerpergrenzen", ["kreislaufanregung-aufstehen", "Antidepressiva: langsam aufstehen (Schwindel)"], "schuettelungen", "kopfarbeit", "auflageflaeche-atemstrom"]
       },
       {
         titel: "Gruppe 2: verstärkende Aktivierung",
-        uebungen: ["walking", "aufrichten-schulterkreisen", "dehnung-pectoralis", "embodiment", "schwungtuch", "tai-chi-qigong", "pmr"]
+        uebungen: ["walking", "aufrichten-schulterkreisen", "dehnung-pectoralis", "embodiment", "schwungtuch", "tai-chi-qigong", "pmr", "aktives-dehnen", "sinnvolle-pausen"]
       },
       {
         titel: "Gruppe 3: fordernde Aktivierung",
-        uebungen: ["aufstehen-stuhl", "rudern-theraband", "energizing", "ringspiele-partner", "koerperschema", "aktivitaetsplanung"]
+        uebungen: ["aufstehen-stuhl", "rudern-theraband", "energizing", "ringspiele-partner", "koerperschema", "aktivitaetsplanung", "fbl-cowboy", "intervallgehen"]
       }
     ],
     quelle: ["KG Psych – Merkblatt Depression mit Physiotherapie", "KG Psych – F3 Affektive Störungen", "KG Psych – Examensfragen"]
@@ -33,11 +33,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Manische Phase",
-        uebungen: ["walking", "atmung-4-6", "pmr", "body-scan", "gehmeditation", "dehnung-trapezius", "tai-chi-qigong"]
+        uebungen: ["walking", "atmung-4-6", "pmr", "body-scan", "gehmeditation", "dehnung-trapezius", "tai-chi-qigong", ["schneckenlaufen", "Tempo bewusst drosseln"]]
       },
       {
         titel: "Depressive Phase",
-        uebungen: ["aktivitaetsplanung", "walking", "embodiment", "aufstehen-stuhl"]
+        uebungen: ["aktivitaetsplanung", "walking", "embodiment", "aufstehen-stuhl", "aktives-dehnen"]
       }
     ],
     quelle: ["KG Psych – Merkblatt Depression mit Physiotherapie", "KG Psych – F3 Affektive Störungen", "KG Psych – Examensfragen"]
@@ -52,7 +52,12 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["koerperschema", ["koerpergrenzen", "Sandsäckchen, Einwickeln – im Sitz statt Liegen"], "walking", "stab-uebungen-sitz", "ringspiele-partner", "gehmeditation", "tai-chi-qigong"]
+        uebungen: ["koerperschema", ["koerpergrenzen", "Sandsäckchen, Einwickeln – im Sitz statt Liegen"], "walking", "stab-uebungen-sitz", "ringspiele-partner", "gehmeditation", "tai-chi-qigong", ["sinnvolle-pausen", "Pausen mit Außenorientierung: hören, sehen, Puls"], "schneckenlaufen"]
+      },
+      {
+        titel: "Katatoner Stupor: Prophylaxen",
+        info: "Liegen lassen, Umfeld absichern, jede Handlung ankündigen.",
+        uebungen: [["hautinspektion-fingertest", "Bei Bewegungslosigkeit regelmäßig"], "umlagerung", ["kgt-schulter-rl", "Erklärendes Tun, ruhig und flächig greifen"], "kgt-huefte-sl", "kgt-knie-rl", ["venenpumpe", "Passiv, wenn keine Eigenaktivität möglich ist"], "kontaktatmung"]
       }
     ],
     quelle: ["KG Psych – Examensfragen", "KG Psych – Einführung PT Psychiatrie", "KG Psych – Inhaltsverzeichnis"]
@@ -67,7 +72,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["atmung-4-6", "kontaktatmung", "achtsamkeit", "body-scan", "gehmeditation", "pmr", "koerpergrenzen", "walking", "resilienz"]
+        uebungen: ["atmung-4-6", "kontaktatmung", "achtsamkeit", "body-scan", "gehmeditation", "pmr", "koerpergrenzen", "walking", "resilienz", "auflageflaeche-atemstrom", "middendorf-hand", "aktives-dehnen", ["fingerkuppendruck", "Ausatem verlängern bei Anspannung"]]
       }
     ],
     quelle: ["KG Psych – Einführung PT Psychiatrie", "KG Psych – Inhaltsverzeichnis", "KG Psych – Arbeitsblatt Resilienz"]
@@ -82,7 +87,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["pmr", "body-scan", "embodiment", "aufrichten-schulterkreisen", "dehnung-trapezius", "walking", "tai-chi-qigong", "aktivitaetsplanung", "resilienz"]
+        uebungen: ["pmr", "body-scan", "embodiment", "aufrichten-schulterkreisen", "dehnung-trapezius", "walking", "tai-chi-qigong", "aktivitaetsplanung", "resilienz", "middendorf-hand", "auflageflaeche-atemstrom", "aktives-dehnen", "autogenes-training"]
       }
     ],
     quelle: ["KG Psych – Einführung PT Psychiatrie", "KG Psych – Inhaltsverzeichnis"]
@@ -97,7 +102,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: [["koerpergrenzen", "Körperausdehnung malen und vergleichen nur nach Absprache im Team"], "koerperschema", "body-scan", "atmung-4-6", "tai-chi-qigong", "achtsamkeit"]
+        uebungen: [["koerpergrenzen", "Körperausdehnung malen und vergleichen nur nach Absprache im Team"], "koerperschema", "body-scan", "atmung-4-6", "tai-chi-qigong", "achtsamkeit", ["auflageflaeche-atemstrom", "Körperwahrnehmung ohne Leistungsbezug"], "middendorf-hand"]
       }
     ],
     quelle: ["KG Psych – Einführung PT Psychiatrie", "KG Psych – Inhaltsverzeichnis"]
@@ -112,7 +117,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["walking", "ergometer", "pmr", "atmung-4-6", "energizing", "aktivitaetsplanung", "resilienz", "tandem", "einbeinstand"]
+        uebungen: ["walking", "ergometer", "pmr", "atmung-4-6", "energizing", "aktivitaetsplanung", "resilienz", "tandem", "einbeinstand", ["kreislaufanregung-aufstehen", "Im Entzug Kreislauf beachten"], "aktives-dehnen"]
       }
     ],
     quelle: ["KG Psych – Examensfragen", "KG Psych – Inhaltsverzeichnis"]
@@ -127,7 +132,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["hockergymnastik", "ente-am-teich", "ball-sitz", "stab-uebungen-sitz", "schwungtuch", "ringspiele-partner", "alltagsbewegungen-nachmachen", "aufstehen-stuhl", "gewichtsverlagerung-stand", "gehen-ebene"]
+        uebungen: ["hockergymnastik", "ente-am-teich", "ball-sitz", "stab-uebungen-sitz", "schwungtuch", "ringspiele-partner", "alltagsbewegungen-nachmachen", "aufstehen-stuhl", "gewichtsverlagerung-stand", "gehen-ebene", ["aufstehen-heben-treppe-ausatmung", "Aufstehen mit der Ausatmung, einfache Ansage"]]
+      },
+      {
+        titel: "Bettlägerige Patienten",
+        uebungen: ["hautinspektion-fingertest", "hochrutschen-scherkraftarm", ["kgt-schulter-rl", "Bewegungen vormachen und ankündigen"], "kgt-knie-rl", "kreislaufanregung-aufstehen"]
       }
     ],
     quelle: ["KG Psych – Examensfragen", "KG Psych – Inhaltsverzeichnis", "KG Innere – Hockergymnastik"]
@@ -142,7 +151,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["resilienz", "achtsamkeit", "schoko-bons", "pmr", "body-scan", "atmung-4-6", "fantasiereise", "walking", "embodiment", "aufrichten-schulterkreisen"]
+        uebungen: ["resilienz", "achtsamkeit", "schoko-bons", "pmr", "body-scan", "atmung-4-6", "fantasiereise", "walking", "embodiment", "aufrichten-schulterkreisen", "autogenes-training", "kopfarbeit", "auflageflaeche-atemstrom", "middendorf-hand", "fingerkuppendruck", "sinnvolle-pausen"]
       }
     ],
     quelle: ["KG Psych – Arbeitsblatt Resilienz", "KG Psych – Perspektiven Resilienz trainieren", "KG Psych – Einführung PT Psychiatrie"]

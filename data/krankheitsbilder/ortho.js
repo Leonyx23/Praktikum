@@ -11,11 +11,11 @@ PT.krankheitsbilder.push(
       {
         titel: "Reha-Sport Hüft-Gruppe: Mobilisation",
         info: "Stundenaufbau aus Bewegungserziehung: Warm-up 10–15 min, Hauptteil 20–25 min, Cool-down 5–10 min.",
-        uebungen: ["seitausfall-torso", "einbeinstand-hueftflexion", "butterfly", "neunzig-neunzig", "leg-lifts-wand", "pigeon", "hueftkreisen-vierfuessler", "psoas-release", "spinal-twist", "childs-pose"]
+        uebungen: ["seitausfall-torso", "einbeinstand-hueftflexion", "butterfly", "neunzig-neunzig", "leg-lifts-wand", "pigeon", "hueftkreisen-vierfuessler", "psoas-release", "spinal-twist", "childs-pose", "schinkengang"]
       },
       {
         titel: "Einzeltherapie",
-        uebungen: ["mt-traktion", "mt-gleiten", "thomas-dehnung", "dehnung-iliopsoas", "dehnung-adduktoren", "abduktion-sl-kurzer-hebel", "bridging", "bruegger-bein-fuss", "ergometer"]
+        uebungen: ["mt-traktion", "mt-gleiten", "thomas-dehnung", "dehnung-iliopsoas", "dehnung-adduktoren", "abduktion-sl-kurzer-hebel", "bridging", "bruegger-bein-fuss", "ergometer", ["kgt-huefte-sl", "Innenrotation und Extension (Kapselmuster) betonen; resistiv Abduktoren"]]
       }
     ],
     quelle: ["Bewegungserziehung – Hüftgelenk (Reha-Sport Hüft-Gruppe)", "KG Orthopädie – Ortho", "Manuelle Therapie – Grundlagen MT"]
@@ -30,7 +30,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["patellamobilisation", "mt-traktion", "isometrie-quadriceps", "wandlehnen", "step-up", "sidesteps-theraband", "beinachse-spiegel", "ergometer", "dehnung-wade", "dehnung-ischios", "ring-fuss-sitz"]
+        uebungen: ["patellamobilisation", "mt-traktion", "isometrie-quadriceps", "wandlehnen", "step-up", "sidesteps-theraband", "beinachse-spiegel", "ergometer", "dehnung-wade", "dehnung-ischios", "ring-fuss-sitz", ["kgt-knie-rl", "Volle Extension erhalten; resistiv schmerzfrei"]]
       }
     ],
     quelle: ["KG Orthopädie – Ortho", "KG Chirurgie – Patellafraktur", "Manuelle Therapie – Grundlagen MT"]
@@ -45,7 +45,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Frühphase",
-        uebungen: ["venenpumpe", ["schleifende-ferse", "Bis max. 90°"], "abduktion-schleifend", "isometrie-gesamt", "brunkow", "transfer-ueber-seitlage", "gangschule-hilfsmittel", "verhaltensregeln-tep"]
+        uebungen: ["venenpumpe", ["schleifende-ferse", "Bis max. 90°"], "abduktion-schleifend", "isometrie-gesamt", "brunkow", "transfer-ueber-seitlage", "gangschule-hilfsmittel", "verhaltensregeln-tep", "kreislaufanregung-aufstehen"]
       },
       {
         titel: "Hockergymnastik-Gruppe (TEP)",
@@ -54,7 +54,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Aufbau",
-        uebungen: ["abduktion-sl-kurzer-hebel", "bridging", "tubersitz", "thomas-dehnung", "gewichtsverlagerung-stand", "stepper", ["pnf-pelvis-post-depression", "Vorbereitung aufs Treppensteigen, nach Freigabe"], "treppensteigen", "gebrauchsbewegungen", "mtt-aufbau"]
+        uebungen: ["abduktion-sl-kurzer-hebel", "bridging", "tubersitz", "thomas-dehnung", "gewichtsverlagerung-stand", "stepper", ["pnf-pelvis-post-depression", "Vorbereitung aufs Treppensteigen, nach Freigabe"], "treppensteigen", "gebrauchsbewegungen", "mtt-aufbau", ["kgt-huefte-sl", "SL auf der gesunden Seite, Kissen zwischen den Knien; keine Rotation, keine Adduktion über die Mittellinie"]]
       }
     ],
     quelle: ["KG Orthopädie – Ortho", "KG Innere – Hockergymnastik", "KG Chirurgie – Zusammenfassung Mittelkurs"]
@@ -69,7 +69,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Frühphase",
-        uebungen: ["hochlagerung", "milde-kaelte", "venenpumpe", "isometrie-quadriceps", "isometrie-ischios", "schleifende-ferse", "patellamobilisation", "gangschule-hilfsmittel", "mld-bein"]
+        uebungen: ["hochlagerung", "milde-kaelte", "venenpumpe", "isometrie-quadriceps", "isometrie-ischios", "schleifende-ferse", "patellamobilisation", "gangschule-hilfsmittel", "mld-bein", ["kgt-knie-rl", "Volle Extension und Flexion bis ca. 90° anstreben"], "kreislaufanregung-aufstehen"]
       },
       {
         titel: "Hockergymnastik-Gruppe (TEP)",
@@ -92,7 +92,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["humeruskopf-zentrierung", "scapula-mobilisation", "scapulasetting", "bruegger-schulter", "rudern-theraband", "thoraxmobilisation", "dehnung-pectoralis", "dehnung-subscapularis", "pnf-scapula-post-depression", "mt-traktion"]
+        uebungen: ["humeruskopf-zentrierung", "scapula-mobilisation", "scapulasetting", "bruegger-schulter", "rudern-theraband", "thoraxmobilisation", "dehnung-pectoralis", "dehnung-subscapularis", "pnf-scapula-post-depression", "mt-traktion", ["kgt-schulter-sitz", "Schmerzhaften Bogen (60–120°) meiden, Humeruskopf zentriert halten"], ["kgt-schulter-rl", "Rotation in 90°-Stellung nur schmerzfrei"]]
       }
     ],
     quelle: ["KG Orthopädie – Zusammenfassung Folie 11–110", "KG Orthopädie – Übungen Scapula praktisch", "KG Orthopädie – Wirkorte der Physiotherapie"]
@@ -111,7 +111,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Aufbau",
-        uebungen: ["scapulasetting", "exzentrisches-training", "bruegger-schulter", "pnf-scapula-post-depression", "pnf-flex-abd-aro", "rudern-theraband", "theraband-oex-sitz"]
+        uebungen: ["scapulasetting", "exzentrisches-training", "bruegger-schulter", "pnf-scapula-post-depression", "pnf-flex-abd-aro", "rudern-theraband", "theraband-oex-sitz", ["kgt-schulter-sitz", "Resistiv: Außenrotation und Abduktion, erst konzentrisch, dann exzentrisch"]]
       }
     ],
     quelle: ["KG Orthopädie – Zusammenfassung Folie 11–110", "KG Orthopädie – Übungen Scapula praktisch"]
@@ -126,7 +126,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["bruegger-hand-unterarm", "exzentrisches-training", "mt-gleiten", "thoraxmobilisation", "aufrichten-schulterkreisen", "feinmotorik", "dehnung-biceps"]
+        uebungen: ["bruegger-hand-unterarm", "exzentrisches-training", "mt-gleiten", "thoraxmobilisation", "aufrichten-schulterkreisen", "feinmotorik", "dehnung-biceps", ["kgt-ellbogen-sl", "Resistiv: Pro-/Supination und Extension dosiert und schmerzfrei"]]
       }
     ],
     quelle: ["KG Orthopädie – Zusammenfassung Folie 11–110", "KG Orthopädie – Übungen Scapula praktisch"]
@@ -141,7 +141,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["erste-rippe-scaleni", "dehnung-trapezius", "dehnung-levator", ["dehnung-pectoralis", "Pectoralis-minor-Syndrom; Rippendehnung als Ausdauermöglichkeit"], "scapulasetting", "pnf-scapula-post-depression", "rudern-theraband", "thoraxmobilisation"]
+        uebungen: ["erste-rippe-scaleni", "dehnung-trapezius", "dehnung-levator", ["dehnung-pectoralis", "Pectoralis-minor-Syndrom; Rippendehnung als Ausdauermöglichkeit"], "scapulasetting", "pnf-scapula-post-depression", "rudern-theraband", "thoraxmobilisation", ["kaetzchen-kaninchengriff", "Entlastet die Atemhilfsmuskulatur am Schultergürtel"]]
       }
     ],
     quelle: ["KG Orthopädie – Unbenannt (TOK)", "KG Orthopädie – Zusammenfassung Folie 11–110"]
@@ -171,11 +171,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Akut",
-        uebungen: ["hochlagerung", "milde-kaelte", "mld-bein", "venenpumpe"]
+        uebungen: ["hochlagerung", "milde-kaelte", "mld-bein", "venenpumpe", ["hivamat", "Entstauend in der Akutphase, falls vorhanden"]]
       },
       {
         titel: "Kraft (Beispiel nach 3 Monaten)",
-        uebungen: ["wadenpresse", "sidesteps-theraband", "pro-supination-ball", "einbeinstand", "ausfallschritte", "bruegger-bein-fuss", "mtt-aufbau"]
+        uebungen: ["wadenpresse", "sidesteps-theraband", "pro-supination-ball", "einbeinstand", "ausfallschritte", "bruegger-bein-fuss", "mtt-aufbau", ["kgt-sprunggelenk-bl", "Resistiv: Pronation (Peroneen) betonen"]]
       }
     ],
     quelle: ["MTT – Gruppe 3 (Außenbandruptur)", "MTT – Skript", "Lymphdrainage – Manuelle Lymphdrainage Praxis"]
@@ -190,7 +190,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["bruegger-rumpf", "rudern-theraband", "aufstehen-stuhl", "einbeinstand", "tandem", "gehen-ebene", "tai-chi-qigong", "kontinentes-buecken-heben", "superman-theraband"]
+        uebungen: ["bruegger-rumpf", "rudern-theraband", "aufstehen-stuhl", "einbeinstand", "tandem", "gehen-ebene", "tai-chi-qigong", "kontinentes-buecken-heben", "superman-theraband", "aufrechter-sitz", ["aufstehen-heben-treppe-ausatmung", "Körpernah heben, mit der Ausatmung"], ["schneckenlaufen", "Mit Sicherung – Sturzprophylaxe"]]
       }
     ],
     quelle: ["KG Orthopädie – Ortho", "Manuelle Therapie – Grundlagen MT", "PNF – Techniken im Fach PNF"]
@@ -205,7 +205,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["dehnung-trapezius", "dehnung-levator", "aufrichten-schulterkreisen", "bruegger-rumpf", "bruegger-schulter", "rudern-theraband", "scapula-mobilisation", "pmr"]
+        uebungen: ["dehnung-trapezius", "dehnung-levator", "aufrichten-schulterkreisen", "bruegger-rumpf", "bruegger-schulter", "rudern-theraband", "scapula-mobilisation", "pmr", "kaetzchen-kaninchengriff", ["massage-atemtherapie", "Trapezius-Streichungen und -Knetungen"], "kopfarbeit", ["schroepfen", "Bewegtes Schröpfen am Schulter-Nacken-Bereich; nicht unter Gerinnungshemmern"]]
       }
     ],
     quelle: ["Dehnungen – Dehnungen alle", "Dehnungen – M. levator scapulae", "Theraband – Thera-Band-Grundübungen nach Brügger"]
@@ -220,11 +220,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Akut: Entlasten und Bewegen",
-        uebungen: ["beckenkippung", "psoas-release", "childs-pose", "spinal-twist", "malende-sitzknochen", "atmung-4-6"]
+        uebungen: ["beckenkippung", "psoas-release", "childs-pose", "spinal-twist", "malende-sitzknochen", "atmung-4-6", "bewegung-atmung-liegen", "beckenacht", ["schroepfen", "Bei muskulärem Hartspann, nicht unter Gerinnungshemmern"]]
       },
       {
         titel: "Stabilisieren und Kräftigen",
-        uebungen: ["superman-theraband", "bridging-theraband", "bridging", "bruegger-rumpf", "pnf-stabilisierende-umkehr", "dehnung-iliopsoas", "dehnung-ischios", "dehnung-piriformis", "kontinentes-buecken-heben"]
+        uebungen: ["superman-theraband", "bridging-theraband", "bridging", "bruegger-rumpf", "pnf-stabilisierende-umkehr", "dehnung-iliopsoas", "dehnung-ischios", "dehnung-piriformis", "kontinentes-buecken-heben", "ws-vierfuessler", "schinkengang"]
       }
     ],
     quelle: ["Theraband – Rumpfstabilisation", "Bewegungserziehung – Hüftgelenk", "Dehnungen – Dehnungen alle", "Manuelle Therapie – Grundlagen MT"]
@@ -239,7 +239,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["bruegger-rumpf", "bruegger-schulter", "bruegger-hand-unterarm", "bruegger-bein-fuss", "rudern-theraband", "dehnung-pectoralis", "aufrichten-schulterkreisen", "thoraxmobilisation"]
+        uebungen: ["bruegger-rumpf", "bruegger-schulter", "bruegger-hand-unterarm", "bruegger-bein-fuss", "rudern-theraband", "dehnung-pectoralis", "aufrichten-schulterkreisen", "thoraxmobilisation", "aufrechter-sitz", "ws-vierfuessler", "fbl-hula-hula", "fbl-galionsfigur", "oelschiene"]
       }
     ],
     quelle: ["Theraband – Thera-Band-Grundübungen nach Brügger"]
@@ -254,7 +254,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["thoraxmobilisation", "dreh-dehnlage", "halbmondlage", "kontaktatmung", "bruegger-rumpf", "dehnung-pectoralis", "dehnung-iliopsoas", "pnf-lifting", "ergometer"]
+        uebungen: ["thoraxmobilisation", "dreh-dehnlage", "halbmondlage", "kontaktatmung", "bruegger-rumpf", "dehnung-pectoralis", "dehnung-iliopsoas", "pnf-lifting", "ergometer", "brustdrehlage", ["statische-dehnstellungen", "Ohne Überschlag"], "ws-vierfuessler", "oelschiene", "fbl-galionsfigur", "fbl-eslein", "fbl-brunnenfigur", "dehnung-koerperwaende", "nasenstenose"]
       }
     ],
     quelle: ["KG Innere – Lunge 1", "Manuelle Therapie – Grundlagen MT"]

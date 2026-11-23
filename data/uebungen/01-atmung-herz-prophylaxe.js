@@ -10,13 +10,14 @@ PT.uebungen.push(
     ablauf: [
       "Ruhig durch die Nase einatmen.",
       "Lippen locker aufeinanderlegen und die Luft langsam gegen den leichten Lippenwiderstand ausströmen lassen (wie „pfff“).",
-      "Die Ausatmung ist länger als die Einatmung, ohne zu pressen."
+      "Die Ausatmung ist länger als die Einatmung, ohne zu pressen.",
+      "In entspannter Situation erlernen, dann unter Belastung (Gehen, Treppe) automatisieren; einatmen über die Nase, ohne aktiven Bauchmuskeleinsatz und ohne Nebengeräusche."
     ],
     dosierung: "Mehrere Atemzüge, jederzeit bei Atemnot und unter Belastung (z. B. Treppe) einsetzen.",
     wirkung: ["Hält die Atemwege bei der Ausatmung offen (Stenose)", "Senkt Atemfrequenz und Überblähung", "Dämpft Hustenreiz"],
     achtung: ["Nicht forciert ausblasen – sonst Kollaps instabiler Atemwege"],
     heim: true,
-    quelle: ["KG Innere – Lunge 2 (Asthma)", "KG Innere – Lunge 3 (COPD)", "KG Innere – Bronchiektasen-Präsentation", "KG Chirurgie – Prophylaxen"]
+    quelle: ["KG Innere – Lunge 2 (Asthma)", "KG Innere – Lunge 3 (COPD)", "KG Innere – Bronchiektasen-Präsentation", "KG Chirurgie – Prophylaxen", "Atemtherapie – 4. Atemtechniken", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "atemerleichternde-stellungen",
@@ -26,12 +27,14 @@ PT.uebungen.push(
     ablauf: [
       "Arme abstützen (Oberschenkel, Tisch, Wand), damit die Atemhilfsmuskulatur am Schultergürtel arbeiten kann.",
       "Oberkörper leicht vorneigen, Bauch locker lassen.",
-      "Mit dosierter Lippenbremse kombinieren."
+      "Mit dosierter Lippenbremse kombinieren.",
+      "Repertoire aufbauen: SL mit erhöhtem Oberkörper, Hocksitz mit Kopf auf den Knien, Sitz mit hinten aufgestützten Armen, Knie-Ellbogen-Stütz, Sitz seitlich an der Bank, Reitsitz, Schultergürtel vorne abgelegt, Stand mit aufgestützten Armen, Arme über dem Kopf angelehnt, Torwarthaltung (bei Kindern beliebt).",
+      "Die Stellung wählt der Patient, nicht der Therapeut; verweilen, bis er sich erholt hat."
     ],
     dosierung: "Bei Atemnot sofort einnehmen; als Pausenstellung beim Gehen und Treppensteigen üben.",
     wirkung: ["Entlastet die Atemarbeit", "Gibt Sicherheit im Anfall"],
     heim: true,
-    quelle: ["KG Innere – Lunge 2 (Asthma)", "KG Innere – Bronchiektasen-Präsentation"]
+    quelle: ["KG Innere – Lunge 2 (Asthma)", "KG Innere – Bronchiektasen-Präsentation", "Atemtherapie – 2. ASTEn", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "kontaktatmung",
@@ -46,7 +49,7 @@ PT.uebungen.push(
     dosierung: "3–5 Minuten, mehrmals täglich; als Eigenübung mit eigenen Händen.",
     wirkung: ["Belüftung gezielter Lungenabschnitte", "Atemwahrnehmung und Entspannung", "Pneumonieprophylaxe"],
     heim: true,
-    quelle: ["KG Chirurgie – Prophylaxen", "KG Innere – Herz-Klausurzusammenfassung", "KG Innere – Klausur ZF"]
+    quelle: ["KG Chirurgie – Prophylaxen", "KG Innere – Herz-Klausurzusammenfassung", "KG Innere – Klausur ZF", "Atemtherapie – 1. Passive Maßnahmen"]
   },
   {
     id: "bauchatmung",
@@ -71,12 +74,14 @@ PT.uebungen.push(
     ablauf: [
       "Ruhige Lagerung, Augen ggf. schließen.",
       "Aufmerksamkeit auf die eigene Atembewegung richten, ohne sie zu verändern.",
-      "Optional: Wahrnehmung der kostalen Atembewegung mit eigenen Händen."
+      "Optional: Wahrnehmung der kostalen Atembewegung mit eigenen Händen.",
+      "Regionen gezielt wahrnehmen: in RL Hände auf die Bauchdecke (costo-abdominal nach ventral), in SL auf die Flanke (costal nach lateral), in BL auf den lumbalen Rücken, im Kutschersitz am oberen Rücken.",
+      "Den Bereich vorher wecken (Ausstreichen, Packegriffe oder Hohlhandklopfungen), dann Hände flächig auflegen und mit Spürfragen begleiten – z. B. ob sich der Bereich unter den Händen mit dem Atem weitet und wieder zurückgeht."
     ],
     dosierung: "2–5 Minuten zu Beginn und am Ende der Behandlung.",
     wirkung: ["Körperwahrnehmung und Entspannung", "Ökonomisieren des Atemrhythmus"],
     heim: true,
-    quelle: ["KG Innere – Herzinsuffizienz (Kleines Programm)"]
+    quelle: ["KG Innere – Herzinsuffizienz (Kleines Programm)", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "schnueffelnde-einatmung",
@@ -85,24 +90,25 @@ PT.uebungen.push(
     aste: "Sitz oder RL mit erhöhtem Oberkörper",
     ablauf: [
       "In mehreren kurzen Schnüffelstößen durch die Nase einatmen, bis die Lunge gut gefüllt ist.",
-      "Kurz halten, dann langsam (z. B. mit Lippenbremse) ausatmen."
+      "Kurz halten, dann langsam (z. B. mit Lippenbremse) ausatmen.",
+      "Eine Hand auf der weichen Bauchdecke spürt die Atemrichtung – so bleiben die Atemhilfsmuskeln locker. Bild: an etwas schnuppern."
     ],
     dosierung: "5–8 Atemzüge, danach Pause.",
     wirkung: ["Vertieft das Atemzugvolumen", "Erweitert die Atembewegung", "Lockert zähes Sekret"],
     achtung: ["Bei restriktiven Erkrankungen nach jeder aktiven Maßnahme eine passive folgen lassen"],
     heim: true,
-    quelle: ["KG Innere – Lunge 1", "KG Innere – Lunge 3", "KG Chirurgie – Prophylaxen"]
+    quelle: ["KG Innere – Lunge 1", "KG Innere – Lunge 3", "KG Chirurgie – Prophylaxen", "Atemtherapie – 4. Atemtechniken", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "gaehnende-einatmung",
     name: "Gähnende Einatmung",
     art: "atmung",
     aste: "Sitz oder RL",
-    ablauf: ["Mit weit geöffnetem Mund und tiefem Rachenraum wie beim Gähnen einatmen.", "Langsam über die Nase oder mit Lippenbremse ausatmen."],
+    ablauf: ["Mit weit geöffnetem Mund und tiefem Rachenraum wie beim Gähnen einatmen.", "Langsam über die Nase oder mit Lippenbremse ausatmen.", "Zum Erlernen: Fingerrücken unter die weiche Stelle am Kinn legen, die Zunge breit in den Mundboden legen und nach hinten ziehen, den Gähndrang abwarten; die andere Hand auf der Bauchdecke.", "Auch im Gehen und beim Treppensteigen zusammen mit der Lippenbremse einsetzen."],
     dosierung: "3–5 Wiederholungen.",
     wirkung: ["Vertieft die Einatmung", "Löst Verspannung im Kiefer- und Halsbereich"],
     heim: true,
-    quelle: ["KG Innere – Lunge 1", "KG Chirurgie – Prophylaxen"]
+    quelle: ["KG Innere – Lunge 1", "KG Chirurgie – Prophylaxen", "Atemtherapie – 4. Atemtechniken", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "phonische-atmung",
@@ -111,12 +117,14 @@ PT.uebungen.push(
     aste: "Sitz",
     ablauf: [
       "Ausatmen auf stimmlose Reibelaute „sch“, „s“ oder „f“ (dosiert, nicht pressen).",
-      "Steigerung: tönendes Einatmen – Einatmung gegen einen leichten Widerstand im Rachen, hörbar."
+      "Steigerung: tönendes Einatmen – Einatmung gegen einen leichten Widerstand im Rachen, hörbar.",
+      "Stoßweise auf F-F-F, PF-PF-PF oder SCH-SCH-SCH ausatmen; der Therapeut übt mit, um Hemmungen zu nehmen.",
+      "Verlängert und gleichmäßig auf die stimmlosen Laute HU oder HA ausatmen (nicht bei Obstruktionsneigung)."
     ],
     dosierung: "5–10 Atemzüge.",
     wirkung: ["Kräftigt Mm. intercostales und Zwerchfell", "Verlängert die Ausatmung"],
     heim: true,
-    quelle: ["KG Innere – Entzündliche Herzerkrankungen"]
+    quelle: ["KG Innere – Entzündliche Herzerkrankungen", "Atemtherapie – 4. Atemtechniken", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "dreh-dehnlage",
@@ -126,13 +134,16 @@ PT.uebungen.push(
     ablauf: [
       "Beine angewinkelt zu einer Seite ablegen, Oberkörper bleibt auf dem Rücken bzw. dreht zur Gegenseite.",
       "Der oben liegende Arm geht in Elevation – die Flanke wird gedehnt.",
-      "In die gedehnte Flanke atmen (ggf. Kontaktatmung)."
+      "In die gedehnte Flanke atmen (ggf. Kontaktatmung).",
+      "Aufbau in 4 Phasen (nach Schaarschuch/Haase): 1. In RL die Auflagefläche erspüren („lassen Sie sich sinken“). 2. Dehnlage entwickeln und die Dehnung über den Hebel Becken/Bein, dann Schulter/Arm verstärken – mit der Einatmung dehnen, mit der Ausatmung lösen. 3. Auflösen, zuerst über Kopf, Schulter und Arm, dann Beine und Becken. 4. In RL nachspüren und Seiten vergleichen.",
+      "Untere Drehlage: Beine aufstellen, ein Knie seitlich ablegen, den anderen Fuß auf den liegenden Fuß setzen, Arme in U-Halte, Kopf zur Gegenseite.",
+      "Rückendrehlage: aus der SL (unteres Bein gestreckt, oberes gebeugt) den oberen Arm im Bogen über den Kopf führen, bis der Schultergürtel aufdreht; Knie bleibt am Boden, Arm ggf. unterlagern."
     ],
-    dosierung: "1–3 Minuten pro Seite.",
+    dosierung: "Etwa 20 Minuten pro Seite inkl. Nachspüren; auch nur eine Seite möglich, um Asymmetrien auszugleichen.",
     wirkung: ["Erweitert die Thoraxbeweglichkeit", "Belüftung der gedehnten Lungenabschnitte"],
     achtung: ["Nach Sternotomie/KHK-OP nicht bis die Fäden gezogen sind", "Nicht bei Herzschrittmacher/ICD auf der betroffenen Seite"],
     heim: true,
-    quelle: ["KG Innere – Lunge 1", "KG Innere – Lunge 2", "KG Innere – Entzündliche Herzerkrankungen", "KG Innere – Klausur ZF"]
+    quelle: ["KG Innere – Lunge 1", "KG Innere – Lunge 2", "KG Innere – Entzündliche Herzerkrankungen", "KG Innere – Klausur ZF", "Atemtherapie – 3. Thoraxmobilisation", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "halbmondlage",
@@ -144,7 +155,7 @@ PT.uebungen.push(
     wirkung: ["Dehnung der Flankenregion", "Thoraxelastizität"],
     achtung: ["Wie Dreh-Dehnlage: nicht nach frischer Sternotomie / bei Schrittmacher"],
     heim: true,
-    quelle: ["KG Innere – Entzündliche Herzerkrankungen", "KG Innere – Klausur ZF"]
+    quelle: ["KG Innere – Entzündliche Herzerkrankungen", "KG Innere – Klausur ZF", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "huffing",
@@ -154,12 +165,13 @@ PT.uebungen.push(
     ablauf: [
       "Mittelgroß einatmen.",
       "Mit offenem Mund und offener Stimmritze kräftig „hhh“ ausatmen (wie einen Spiegel anhauchen).",
-      "Variante Doppel-Huffing: zwei Huffs hintereinander."
+      "Variante Doppel-Huffing: zwei Huffs hintereinander.",
+      "Je zentraler das Sekret sitzt, desto kürzer der Huff; je peripherer, desto länger. Nach 2–3 Huffs ruhige, tiefe Atemzüge."
     ],
     dosierung: "Am Ende jeder Sekretmobilisation 2–3 Huffs.",
     wirkung: ["Sekrettransport Richtung Trachea", "Ersetzt anstrengenden, unproduktiven Husten", "Senkt hohe intrathorakale Drücke"],
     heim: true,
-    quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Innere – Lunge 3"]
+    quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Innere – Lunge 3", "Atemtherapie – 5. Atemtechnik Husten", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "autogene-drainage",
@@ -170,12 +182,15 @@ PT.uebungen.push(
       "Phase 1 (Lösen): auf niedrigem Lungenvolumen atmen (nach Ausatmung nur flach einatmen).",
       "Phase 2 (Sammeln): Atemvolumen schrittweise erhöhen.",
       "Phase 3 (Evakuieren): auf hohem Volumen atmen, Sekret mit Huffing abtransportieren.",
-      "Ausatmung immer passiv-aktiv mit offenen Atemwegen, nicht pressen."
+      "Ausatmung immer passiv-aktiv mit offenen Atemwegen, nicht pressen.",
+      "Hände auf Brustbein und Bauchdecke kontrollieren die Atembewegung; langsam durch die Nase einatmen, am Ende 2–3 s halten.",
+      "Je mehr Schleim in den großen Atemwegen, desto kürzer die Ausatmung; je weniger, desto länger. Erst abhusten oder räuspern, wenn das Sekret an Luftröhre oder Kehlkopf angekommen ist.",
+      "Kinder: Voraussetzung sind ein beweglicher Brustkorb, ruhiges Sitzen, Konzentration und das Wahrnehmen von Sekret – spielerisch vorbereiten (riechendes und schnüffelndes Einatmen, Pustespiele, Stofftieratmung)."
     ],
     dosierung: "Individuell 10–30 Minuten, möglichst täglich; nach Präferenz des Patienten alternativ ACBT.",
     wirkung: ["Sekret aus peripheren Atemwegen lösen und transportieren", "Ohne Hilfsmittel selbstständig anwendbar"],
     heim: true,
-    quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Innere – Lunge 3"]
+    quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Innere – Lunge 3", "Atemtherapie – 4. Atemtechniken", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "acbt",
@@ -191,7 +206,7 @@ PT.uebungen.push(
     dosierung: "Mehrere Zyklen, bis Huffing trocken klingt.",
     wirkung: ["Sekretmobilisation", "Vermeidet Ermüdung durch eingeplante Pausen"],
     heim: true,
-    quelle: ["KG Innere – Bronchiektasen-Präsentation"]
+    quelle: ["KG Innere – Bronchiektasen-Präsentation", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "oszillierendes-pep",
@@ -202,13 +217,15 @@ PT.uebungen.push(
       "Langsam und tiefer als normal einatmen.",
       "Durch das Gerät gleichmäßig und etwas verlängert ausatmen – Wangen nicht aufblasen.",
       "Gerätewinkel/Einstellung so wählen, dass Vibrationen im Brustkorb spürbar sind.",
-      "Nach einigen Zyklen Huffing anschließen."
+      "Nach einigen Zyklen Huffing anschließen.",
+      "Flutter: horizontal in den Mund nehmen, nach tiefer Nasenatmung ca. 3 s halten, dann lang ohne Pressen ausatmen; der Neigungswinkel verändert den Widerstand.",
+      "RC-Cornet: durch Drehen des Mundstücks werden Druck und Schwingung eingestellt; Gerät nur für einen Patienten verwenden."
     ],
     dosierung: "Teil des Morgenprogramms, 1–2 × täglich; Technik regelmäßig kontrollieren.",
     wirkung: ["Schwingungen verflüssigen das Sekret", "Positiver Ausatemdruck verhindert Kollaps der Atemwege"],
     material: "Flutter, RC-Cornet oder ähnliches PEP-Gerät",
     heim: true,
-    quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Innere – Lunge 3"]
+    quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Innere – Lunge 3", "Atemtherapie – 6. Hilfsmittel", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "drainagelagerung",
@@ -218,12 +235,14 @@ PT.uebungen.push(
     ablauf: [
       "Betroffenes Segment so lagern, dass das Sekret der Schwerkraft folgend Richtung Hauptbronchus fließt.",
       "In der Lagerung atmen: mit PEP-Gerät, autogener Drainage oder ACBT kombinieren.",
-      "Anschließend Huffing."
+      "Anschließend Huffing.",
+      "Orientierung: angelehnter Sitz (vorderer Oberlappen), vorgeneigter Sitz mit abgelegten Armen (hinterer Oberlappen), BL/RL (Mittelgeschoss), Kopftieflage auf Rücken, Bauch oder Seite (Unterlappen).",
+      "In der Lagerung: Stenoseatmung, Summen oder Tönen, Vibrationen bzw. Klopfungen, Packegriffe, heiße Getränke; Sputumbecher bereitstellen, bei Trachealrasseln zum Abhusten aufsetzen."
     ],
-    dosierung: "5–10 Minuten pro Lagerung.",
+    dosierung: "5–20 Minuten pro Lagerung (Lehrbuch: 15–20 min), meist 2–3 Lagerungen pro Einheit; insgesamt höchstens 60 Minuten.",
     wirkung: ["Sekrettransport", "Verbessert die Perfusion"],
-    achtung: ["Kopftieflage nicht bei Herzinsuffizienz, Hirndruck, Reflux"],
-    quelle: ["KG Innere – Lunge 1", "KG Innere – Lunge 3", "KG Innere – Bronchiektasen-Präsentation"]
+    achtung: ["Kopftieflage nicht bei Herzinsuffizienz, Hirndruck, Reflux", "Kopftieflage fordert das Zwerchfell und belastet Herz und Kreislauf"],
+    quelle: ["KG Innere – Lunge 1", "KG Innere – Lunge 3", "KG Innere – Bronchiektasen-Präsentation", "Atemtherapie – 2. ASTEn", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "umlagerung",
@@ -247,33 +266,36 @@ PT.uebungen.push(
     ablauf: [
       "Haut und Unterhaut flächig fassen (Packegriff) und kurz abheben, oder als Rolle über den Thorax führen.",
       "Arbeitsrichtung von kaudal nach kranial, eine Seite fertig behandeln.",
-      "Den Bereich zwischen den Schulterblättern aussparen (Kopf- und Herzzone)."
+      "Den Bereich zwischen den Schulterblättern aussparen (Kopf- und Herzzone).",
+      "Hänge- oder Packegriff: Hautfalte mit der ganzen Hand (vier Finger und Daumen) bis zur Toleranzgrenze abheben, mindestens 15 s halten und langsam lösen – nicht kneifen.",
+      "„Falte wegatmen“: am Ende der Ausatmung greifen, der Patient atmet die Falte aus den Händen weg; in der Ausatmung locker lassen oder über mehrere Atemzüge als starken Reiz halten.",
+      "Der Patient kann die Packegriffe selbst erlernen und zu Hause anwenden (in der Einatmung dehnen, in der Ausatmung lösen)."
     ],
     dosierung: "Einige Minuten, z. B. in den Pausen zwischen aktiven Bewegungsserien.",
-    wirkung: ["Senkt erhöhte Gewebswiderstände", "Reflektorische Atemvertiefung"],
-    quelle: ["KG Innere – Herzinsuffizienz", "KG Innere – Lunge 1", "KG Chirurgie – Prophylaxen"]
+    wirkung: ["Senkt erhöhte Gewebswiderstände", "Reflektorische Atemvertiefung", "Wärme- und Weitegefühl, bessere Atemexkursion"],
+    quelle: ["KG Innere – Herzinsuffizienz", "KG Innere – Lunge 1", "KG Chirurgie – Prophylaxen", "Atemtherapie – 1. Passive Maßnahmen", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "icr-ausstreichungen",
     name: "Intercostalausstreichungen (ICR)",
     art: "atmung",
     aste: "SL, Reitsitz oder RL",
-    ablauf: ["Mit den Fingerkuppen die Zwischenrippenräume von dorsal nach ventral ausstreichen.", "Langsam, angepasst an die Atmung."],
+    ablauf: ["Mit den Fingerkuppen die Zwischenrippenräume von dorsal nach ventral ausstreichen.", "Langsam, angepasst an die Atmung.", "Im Kurs: im Rippenverlauf weich und rhythmisch von lateral zur Wirbelsäule; über die Stellung der Fingerkuppen flächig oder tief arbeiten. Gut zur Kontaktaufnahme am Beginn der Behandlung."],
     dosierung: "Mehrere Züge pro Zwischenrippenraum.",
     wirkung: ["Verschieblichkeit des Gewebes am Thorax", "Tonussenkung der Interkostalmuskulatur"],
-    quelle: ["KG Innere – Herzinsuffizienz", "KG Innere – Entzündliche Herzerkrankungen", "KG Chirurgie – Prophylaxen"]
+    quelle: ["KG Innere – Herzinsuffizienz", "KG Innere – Entzündliche Herzerkrankungen", "KG Chirurgie – Prophylaxen", "Atemtherapie – 1. Passive Maßnahmen"]
   },
   {
     id: "vibrationen-thorax",
     name: "Vibrationen am Thorax",
     art: "passiv",
     aste: "SL oder Drainagelagerung",
-    ablauf: ["Manuell (flächige Hand) oder apparativ (Vibrax) in der Ausatemphase vibrieren.", "Mit tiefen Atemzügen und Huffing kombinieren."],
+    ablauf: ["Manuell (flächige Hand) oder apparativ (Vibrax) in der Ausatemphase vibrieren.", "Mit tiefen Atemzügen und Huffing kombinieren.", "Vibrax: stärkeres Drücken bringt keine stärkere Wirkung."],
     dosierung: "Einige Minuten pro Lungenabschnitt.",
     wirkung: ["Lösen von zähem Sekret"],
     achtung: ["Tiefe Atemzüge sind oft wirksamer als Vibrationen", "Nicht bei Schrittmacher/ICD, frischer Sternotomie, Osteoporose", "Im Akutstadium keine Hackungen, Klopfungen oder Klatschungen"],
     material: "Ggf. Vibrax",
-    quelle: ["KG Innere – Lunge 3", "KG Innere – Entzündliche Herzerkrankungen", "KG Chirurgie – Prophylaxen"]
+    quelle: ["KG Innere – Lunge 3", "KG Innere – Entzündliche Herzerkrankungen", "KG Chirurgie – Prophylaxen", "Atemtherapie – 1. Passive Maßnahmen", "Atemtherapie – 6. Hilfsmittel"]
   },
   {
     id: "heisse-rolle",
@@ -285,7 +307,7 @@ PT.uebungen.push(
     wirkung: ["Reflektorische Atemvertiefung", "Detonisierung, Durchblutung", "Fördert Wochenfluss (segmental)"],
     achtung: ["Nicht im OP-Gebiet", "Nicht im Akutstadium einer Pneumonie"],
     material: "Frotteehandtuch, heißes Wasser",
-    quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Gyn – Wochenbett", "KG Chirurgie – Zusammenfassung Mittelkurs"]
+    quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Gyn – Wochenbett", "KG Chirurgie – Zusammenfassung Mittelkurs", "Atemtherapie – Spicker", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "reitsitzbehandlung",
@@ -296,11 +318,13 @@ PT.uebungen.push(
       "Passive Maßnahmen am Thorax zur Gewebslockerung (Packegriffe, ICR, Hautverschiebungen), immer erst eine Seite beenden.",
       "Beckenkamm, Schulterblatt und M. trapezius einschließen, Bereich zwischen den Schulterblättern aussparen.",
       "Mit Ein- und Ausatemtechniken verbinden.",
-      "Abschluss: leichte aktive dynamische Übungen der Arme, Beine und des Rumpfes im Sitz."
+      "Abschluss: leichte aktive dynamische Übungen der Arme, Beine und des Rumpfes im Sitz.",
+      "Typische Reihenfolge: Kontaktatmung – ICR – Mäuschengriff – Anhaken – Gabelgriff – Hänge-/Packegriffe – Schüttelungen – Vibrationen – Klopfungen – Kätzchen- und Kaninchengriff; rechts (herzfern) beginnen."
     ],
     dosierung: "10–20 Minuten.",
     wirkung: ["Senkt Gewebswiderstände", "Gleichzeitig Befundaufnahme möglich"],
-    quelle: ["KG Innere – Herzinsuffizienz (Anhang)", "KG Innere – Lunge 1"]
+    achtung: ["Reizintensität höchstens 5 von 10", "Vegetative Reaktionen beobachten; Gerinnungshemmer beachten"],
+    quelle: ["KG Innere – Herzinsuffizienz (Anhang)", "KG Innere – Lunge 1", "Atemtherapie – 1. Passive Maßnahmen"]
   },
   {
     id: "atemtrainer",
@@ -310,24 +334,25 @@ PT.uebungen.push(
     ablauf: [
       "Triflow: langsam und tief durch das Mundstück einatmen, die Bälle möglichst lange oben halten.",
       "Umgedrehter Triflow: gegen Widerstand ausatmen.",
-      "Giebelrohr: Totraumvergrößerung, nur nach ärztlicher Anordnung."
+      "Giebelrohr: Totraumvergrößerung, nur nach ärztlicher Anordnung.",
+      "Tri-/Mediflow: langsam und tief durch das Mundstück (nicht durch die Nase) einatmen, ein bis zwei Kugeln schweben lassen – die dritte bleibt liegen; passiv ausatmen, ohne Einsatz der Atemhilfsmuskeln."
     ],
-    dosierung: "5–10 Atemzüge, mehrmals täglich.",
+    dosierung: "Etwa stündlich 10 tiefe Atemzüge.",
     wirkung: ["Vertieft das Atemzugvolumen", "Pneumonieprophylaxe", "Atemmuskeltraining"],
     material: "Triflow, Giebelrohr",
     heim: true,
-    quelle: ["KG Chirurgie – Prophylaxen", "KG Innere – Lunge 1"]
+    quelle: ["KG Chirurgie – Prophylaxen", "KG Innere – Lunge 1", "Atemtherapie – 6. Hilfsmittel"]
   },
   {
     id: "atemmuskeltraining",
     name: "Atemmuskeltraining / Widerstandsatmung",
     art: "atmung",
     aste: "Atemerschwerende Ausgangsstellungen (z. B. Bauchlage), Sitz",
-    ablauf: ["Gegen einen dosierten Widerstand ein- oder ausatmen (Hände des Therapeuten, Gerät, Ausgangsstellung).", "Pausen einhalten."],
+    ablauf: ["Gegen einen dosierten Widerstand ein- oder ausatmen (Hände des Therapeuten, Gerät, Ausgangsstellung).", "Pausen einhalten.", "Manueller Widerstand: Griff wie bei der Thoraxkompression, Ausatmung begleiten, dann der Einatembewegung der Rippen dosiert Widerstand geben (RL, SL oder BL)."],
     dosierung: "Kurze Serien, nach Ermüdung pausieren.",
     wirkung: ["Kräftigt die Atemmuskulatur"],
     achtung: ["Bauchlage nicht für jeden geeignet"],
-    quelle: ["KG Innere – Lunge 1"]
+    quelle: ["KG Innere – Lunge 1", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "hustentechnik",
@@ -342,7 +367,7 @@ PT.uebungen.push(
     dosierung: "Bei Bedarf.",
     wirkung: ["Senkt hohe intrathorakale Drücke", "Schont Wunden und Atemwege"],
     heim: true,
-    quelle: ["KG Innere – Lunge 1", "KG Innere – Lunge 3", "KG Innere – Herz-Klausurzusammenfassung"]
+    quelle: ["KG Innere – Lunge 1", "KG Innere – Lunge 3", "KG Innere – Herz-Klausurzusammenfassung", "Atemtherapie – 5. Atemtechnik Husten"]
   },
   {
     id: "thoraxmobilisation",
@@ -352,12 +377,15 @@ PT.uebungen.push(
     ablauf: [
       "BWS-Extension mit Einatmung, BWS-Flexion mit Ausatmung.",
       "Rotation und Seitneigung des Oberkörpers, Rippen mitbewegen.",
-      "Schultern locker – hochgezogene Schultern bewusst senken."
+      "Schultern locker – hochgezogene Schultern bewusst senken.",
+      "BWS-Rotation: Hände auf dem Brustbein, Becken bleibt ruhig, Schultergürtel dreht mit dem Kopf – oder die Augen ruhen auf einem Punkt.",
+      "Lateralflexion: Hände auf den gleichseitigen Schultern, ein Ellbogen geht seitlich nach oben, die WS neigt mit.",
+      "Ganze WS: Arme hängen, über Innenrotation der Arme in die Flexion runden, über Außenrotation in die Extension aufrichten; den aufrechten Moment mit 1–2 Atemzügen füllen. Rotation: mit beiden Händen die hintere Hockerkante berühren."
     ],
     dosierung: "8–10 Wiederholungen je Richtung.",
     wirkung: ["Verbessert Thorax- und BWS-Beweglichkeit", "Fördert kostoabdominales Atemmuster"],
     heim: true,
-    quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Innere – Lunge 2"]
+    quelle: ["KG Innere – Bronchiektasen-Präsentation", "KG Innere – Lunge 2", "Atemtherapie – 3. Thoraxmobilisation", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "peak-flow-schulung",
@@ -383,12 +411,13 @@ PT.uebungen.push(
     ablauf: [
       "Erst kurzwirksamer Bronchodilatator, dann (nach ärztlicher Verordnung) hypertone Kochsalzlösung über Mundstück.",
       "Während der Inhalation langsam tief einatmen, kurz halten.",
-      "Direkt danach Sekretmobilisation (PEP, autogene Drainage), Vernebler hygienisch reinigen und trocknen."
+      "Direkt danach Sekretmobilisation (PEP, autogene Drainage), Vernebler hygienisch reinigen und trocknen.",
+      "Lippen umschließen das Mundstück, langsam und tief einatmen („slow and deep“), 3–10 s Atempause ohne Glottisschluss; Unterbrechertaste nur in der Einatmung drücken."
     ],
     dosierung: "Morgens vor den Atemtechniken.",
     wirkung: ["Sekret wird flüssiger, Atemtechniken wirken besser"],
     heim: true,
-    quelle: ["KG Innere – Bronchiektasen-Präsentation"]
+    quelle: ["KG Innere – Bronchiektasen-Präsentation", "Atemtherapie – 6. Hilfsmittel"]
   },
   {
     id: "atemreizgriffe",
@@ -838,11 +867,12 @@ PT.uebungen.push(
     ablauf: [
       "Gefährdete Stellen entlasten: Kreuzbein, Fersen, Trochanter, Schulterblätter, Ellbogen, Knöchel, Fibulaköpfchen.",
       "Viel Körperfläche aufliegen lassen, normentsprechende Gelenkstellungen.",
-      "Faltenfreie Unterlage, Haut abreiben und bürsten."
+      "Faltenfreie, trockene Unterlage; Haut pflegen und trocken halten (Schweiß, Inkontinenz)."
     ],
-    dosierung: "Bei jedem Lagewechsel kontrollieren.",
+    dosierung: "Bei jedem Lagewechsel kontrollieren (Fingertest).",
     wirkung: ["Verhindert Druckgeschwüre"],
-    quelle: ["KG Chirurgie – Prophylaxen"]
+    achtung: ["Gerötete oder gefährdete Stellen nicht massieren, reiben oder bürsten", "Beim Hochrutschen anheben statt ziehen (Scherkräfte)"],
+    quelle: ["KG Chirurgie – Prophylaxen", "KG Techniken – Dekubitusprophylaxe"]
   },
   {
     id: "a-lagerung",
@@ -910,11 +940,11 @@ PT.uebungen.push(
     name: "Schnelle Lagerung (nach Schaarschuch/Haase)",
     art: "psyche",
     aste: "RL oder SL",
-    ablauf: ["Körperteile nacheinander zügig mit Kissen unterlagern, bis der ganze Körper getragen wird.", "Patient spürt nach, wie der Körper abgegeben wird; ruhige Atmung."],
+    ablauf: ["Körperteile nacheinander zügig mit Kissen unterlagern, bis der ganze Körper getragen wird.", "Patient spürt nach, wie der Körper abgegeben wird; ruhige Atmung.", "Variante Abhebeproben (Kurs/Lehrbuch): Therapeut schiebt von der Seite beide Hände flächig bis zum medialen Schulterblattrand, hebt leicht an (ca. 5 s) und zieht die Hände beim Absenken langsam heraus; dann den Arm an der Unterseite von proximal bis zu den Fingerspitzen ausstreichen, ohne ihn anzuheben.", "Ebenso am Kreuzbein anheben und das Bein bis zu den Zehen ausstreichen; Seitenvergleich durch den Patienten, dann andere Seite.", "Zum Abschluss den Kopf mit beiden Händen vom Hinterhaupt leicht von der Unterlage lösen, sanft ablegen und die Hände nach kranial herausziehen."],
     dosierung: "5–10 Minuten.",
     wirkung: ["Entspannung", "Atemvertiefung", "Körperwahrnehmung"],
     material: "Mehrere Kissen",
-    quelle: ["KG Innere – Herz-Klausurzusammenfassung", "KG Psych – Einführung PT Psychiatrie"]
+    quelle: ["KG Innere – Herz-Klausurzusammenfassung", "KG Psych – Einführung PT Psychiatrie", "Atemtherapie – 7. Entspannung", "Atemtherapie – Buch Rutte/Sturm (Springer)"]
   },
   {
     id: "lagerung-sht",

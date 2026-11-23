@@ -10,11 +10,20 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Lagerung",
-        uebungen: ["a-lagerung", "lagerung-weniger-betroffene-seite", "lagerung-betroffene-seite", "umlagerung"]
+        uebungen: ["a-lagerung", "lagerung-weniger-betroffene-seite", "lagerung-betroffene-seite", "umlagerung", "hautinspektion-fingertest"]
       },
       {
         titel: "Erste Mobilisation",
-        uebungen: ["bobath-bewegungsuebergaenge", ["schleifende-ferse", "Passiv bis assistiv"], "sprunggelenk-dex-pflex", "rumpfrotation", "bobath-sitz-gewichtsverlagerung", "kontaktatmung", "neglect-aufmerksamkeit"]
+        uebungen: ["bobath-bewegungsuebergaenge", ["schleifende-ferse", "Passiv bis assistiv"], "sprunggelenk-dex-pflex", "rumpfrotation", "bobath-sitz-gewichtsverlagerung", "kontaktatmung", "neglect-aufmerksamkeit", ["kreislaufanregung-aufstehen", "Vor dem ersten Aufsitzen"]]
+      },
+      {
+        titel: "KG-Techniken: passiv, assistiv und resistiv bewegen",
+        uebungen: [["kgt-schulter-rl", "Hemischulter: Scapula mitbewegen, nie über 90° ziehen"], ["kgt-ellbogen-sl", "In SL auf der weniger betroffenen Seite"], ["kgt-huefte-sl", "In SL auf der weniger betroffenen Seite; nicht an der Fußsohle greifen"], "kgt-knie-rl"]
+      },
+      {
+        titel: "Atemtherapie (Pneumonieprophylaxe)",
+        info: "Nach Schlaganfall ist das Pneumonierisiko hoch (Schluckstörung, Immobilität, schwacher Husten).",
+        uebungen: ["einatmung-halten", ["dehnzuege", "Am Bein bzw. am weniger betroffenen Arm – betroffene Schulter schützen"], ["hustenhilfe", "Bei schwachem Hustenstoß"], "atemerschwerende-aste"]
       }
     ],
     quelle: ["KG Neuro – Schlaganfall/Hemiparese", "Bobath – A-Lagerung", "Bobath – Lagerung auf der weniger betroffenen Seite", "Bobath – Einführung"]
@@ -38,6 +47,10 @@ PT.krankheitsbilder.push(
       {
         titel: "Obere Extremität und Feinmotorik",
         uebungen: ["pnf-stuetz", "pnf-kuess-bizeps", "feinmotorik", "bruegger-hand-unterarm"]
+      },
+      {
+        titel: "KG-Techniken: passiv, assistiv und resistiv bewegen",
+        uebungen: [["kgt-schulter-sitz", "Mit Rumpfkontrolle im Sitz; resistiv zur Kräftigung"], ["kgt-huefte-sl", "Resistiv: Abduktoren und Extensoren für den Gang"], ["kgt-sprunggelenk-bl", "Spitzfußprophylaxe, resistiv Fußheber"]]
       }
     ],
     quelle: ["Bobath – Einführung", "KG Neuro – Gelenkmobilität UEX", "PNF – Lifting und Chopping"]
@@ -91,7 +104,11 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Haltung, Beweglichkeit und Gleichgewicht",
-        uebungen: ["thoraxmobilisation", "dehnung-pectoralis", "dehnung-iliopsoas", "dehnung-wade", "bruegger-rumpf", "rumpfrotation", "tandem", "einbeinstand", "pnf-lifting"]
+        uebungen: ["thoraxmobilisation", "dehnung-pectoralis", "dehnung-iliopsoas", "dehnung-wade", "bruegger-rumpf", "rumpfrotation", "tandem", "einbeinstand", "pnf-lifting", "oelschiene", "brustdrehlage", "ws-vierfuessler", "aufrechter-sitz", "beckenacht", ["toenen-ptkm", "Lautes Tönen unterstützt Stimme und Atmung"], ["hustenhilfe", "Bei schwachem Hustenstoß"]]
+      },
+      {
+        titel: "KG-Techniken: passiv, assistiv und resistiv bewegen",
+        uebungen: [["kgt-schulter-sitz", "Rigor: langsam, rhythmisch; Flexion und Außenrotation gegen die Beugehaltung"], ["kgt-huefte-sl", "Extension gegen die Beugehaltung betonen"]]
       }
     ],
     quelle: ["KG Neuro – Morbus Parkinson", "KG Neuro – Fallbeispiel Parkinson", "Theraband – Thera-Band-Grundübungen nach Brügger"]
@@ -106,7 +123,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Im Schub",
-        uebungen: ["umlagerung", "venenpumpe", "durchbewegen", "kontaktatmung"]
+        uebungen: ["umlagerung", "venenpumpe", "durchbewegen", "kontaktatmung", ["hautinspektion-fingertest", "Bei Sensibilitätsstörungen besonders wichtig"]]
       },
       {
         titel: "Remission und Intervall (Bobath-Grundsätze)",
@@ -114,7 +131,11 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Eigenübungen",
-        uebungen: ["dehnung-wade", "dehnung-ischios", "dehnung-adduktoren", "tai-chi-qigong"]
+        uebungen: ["dehnung-wade", "dehnung-ischios", "dehnung-adduktoren", "tai-chi-qigong", ["threshold-imt", "Bei geschwächter Atemmuskulatur, ermüdungsarm dosieren"], ["hustenhilfe", "Bei schwachem Hustenstoß"], "aufstehen-heben-treppe-ausatmung", ["pnf-atmung", "Als Therapeutenmaßnahme bei schwacher Atemmuskulatur"]]
+      },
+      {
+        titel: "KG-Techniken: passiv, assistiv und resistiv bewegen",
+        uebungen: [["kgt-schulter-rl", "Langsam und rhythmisch – schnelle Bewegungen steigern die Spastik"], "kgt-huefte-sl", "kgt-knie-rl", ["kgt-sprunggelenk-bl", "Spitzfußprophylaxe; resistiv Fußheber"]]
       }
     ],
     quelle: ["KG Neuro – Multiple Sklerose"]
@@ -129,11 +150,15 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Frühphase",
-        uebungen: ["lagerung-sht", "umlagerung", "durchbewegen", "dekubitus-lagerung", "kontaktatmung", "atemreizgriffe", "venenpumpe"]
+        uebungen: ["lagerung-sht", "umlagerung", "durchbewegen", "dekubitus-lagerung", "kontaktatmung", "atemreizgriffe", "venenpumpe", "hautinspektion-fingertest", "hochrutschen-scherkraftarm", ["dehnzuege", "Passiver Einatemreiz"], ["schuettelungen", "Tonusregulation, nicht am subluxierten Arm ziehen"]]
       },
       {
         titel: "Mobilisation",
-        uebungen: ["sht-sequenzen", "rumpfrotation", "bobath-sitz-gewichtsverlagerung", "bobath-bewegungsuebergaenge", "sicherer-stand", "pnf-mattenprogramm"]
+        uebungen: ["sht-sequenzen", "rumpfrotation", "bobath-sitz-gewichtsverlagerung", "bobath-bewegungsuebergaenge", "sicherer-stand", "pnf-mattenprogramm", "kreislaufanregung-aufstehen"]
+      },
+      {
+        titel: "KG-Techniken: passiv, assistiv und resistiv bewegen",
+        uebungen: ["kgt-schulter-rl", "kgt-ellbogen-sl", ["kgt-huefte-sl", "Seitlage bevorzugen (Tonus)"], "kgt-knie-rl", ["kgt-sprunggelenk-bl", "Spitzfußprophylaxe; Bauchlage nur wenn möglich"]]
       }
     ],
     quelle: ["KG Neuro – Schädel-Hirn-Trauma"]
@@ -148,7 +173,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["igelball-fussarbeit", "dynamisches-gehen", "tandem", "einbeinstand", "seilgang", "vier-halbe-baelle", "gewichtsverlagerung-stand", "ring-fuss-sitz", "tai-chi-qigong"]
+        uebungen: ["igelball-fussarbeit", "dynamisches-gehen", "tandem", "einbeinstand", "seilgang", "vier-halbe-baelle", "gewichtsverlagerung-stand", "ring-fuss-sitz", "tai-chi-qigong", ["hautinspektion-fingertest", "Füße täglich auf Druckstellen kontrollieren"], ["kgt-sprunggelenk-bl", "Resistiv: Fußheber und Peroneen kräftigen"], ["schneckenlaufen", "Langsam abrollen und spüren, mit Sicherung"]]
       }
     ],
     quelle: ["KG Innere – Innere Medizin (Romberg-Test)", "KG Neuro – Multiple Sklerose", "KG Gyn – Übungen für Beckenbodentraining"]

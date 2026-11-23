@@ -406,11 +406,11 @@ PT.uebungen.push(
     name: "Progressive Muskelentspannung (Jacobson)",
     art: "psyche",
     aste: "RL oder Sitz",
-    ablauf: ["Muskelgruppen nacheinander 5–7 s fest anspannen, dann 20–30 s bewusst loslassen.", "Reihenfolge: Hände → Arme → Gesicht → Schultern → Bauch → Beine."],
+    ablauf: ["Muskelgruppen nacheinander 5–7 s fest anspannen, dann 20–30 s bewusst loslassen.", "Reihenfolge: Hände → Arme → Gesicht → Schultern → Bauch → Beine.", "Kursvariante: Spannung aufbauen und verstärken, 8–10 s halten, ca. 30 s bewusst lösen (Verhältnis An- zu Entspannung etwa 1 : 3), von distal nach proximal; Standardverfahren mit 16 Muskelgruppen."],
     dosierung: "15–20 Minuten, 3–5 × pro Woche.",
     wirkung: ["Entspannung über die Tiefensensibilität", "Körperwahrnehmung"],
     heim: true,
-    quelle: ["KG Psych – Merkblatt Depression mit Physiotherapie", "KG Psych – Einführung PT Psychiatrie", "KG Innere – Lunge 2 (Asthma)"]
+    quelle: ["KG Psych – Merkblatt Depression mit Physiotherapie", "KG Psych – Einführung PT Psychiatrie", "KG Innere – Lunge 2 (Asthma)", "Atemtherapie – 7. Entspannung"]
   },
   {
     id: "body-scan",
@@ -461,10 +461,10 @@ PT.uebungen.push(
     name: "Fantasiereise (auch mit Bewegungen)",
     art: "psyche",
     aste: "RL oder Sitz",
-    ablauf: ["Therapeut leitet eine ruhige Bildreise an (z. B. Strand, Wald).", "Variante für Gruppen: die Bilder mit kleinen Bewegungen begleiten."],
+    ablauf: ["Therapeut leitet eine ruhige Bildreise an (z. B. Strand, Wald).", "Variante für Gruppen: die Bilder mit kleinen Bewegungen begleiten.", "Atembilder: am Meer sitzen und den Atem den Wellen anpassen, im Schaukelstuhl vor dem Kamin, im schaukelnden Boot liegen; „Happy Place“ – alle Sinne einbeziehen."],
     dosierung: "5–15 Minuten.",
     wirkung: ["Entspannung, Stressabbau", "Lockerung von Nacken und Schultern"],
-    quelle: ["KG Innere – Klausur ZF (Manager-Typ)", "KG Psych – Einführung PT Psychiatrie"]
+    quelle: ["KG Innere – Klausur ZF (Manager-Typ)", "KG Psych – Einführung PT Psychiatrie", "Atemtherapie – 7c. Autogenes Training Beispiel", "Atemtherapie – 7d. Entspannung Beispiel"]
   },
   {
     id: "embodiment",

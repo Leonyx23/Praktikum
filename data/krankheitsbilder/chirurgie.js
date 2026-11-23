@@ -10,15 +10,15 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Pneumonieprophylaxe",
-        uebungen: ["kontaktatmung", "schnueffelnde-einatmung", "gaehnende-einatmung", "lippenbremse", "packegriffe", "icr-ausstreichungen", "atemtrainer", "umlagerung"]
+        uebungen: ["kontaktatmung", "schnueffelnde-einatmung", "gaehnende-einatmung", "lippenbremse", "packegriffe", "icr-ausstreichungen", "atemtrainer", "umlagerung", "einatmung-halten", "nasenstenose", ["hustenhilfe", "Wunde fixieren"], "reizhusten-atemhilfen", "toenen-ptkm", "dehnzuege", "dehnung-koerperwaende", ["pnf-atmung", "Costal oder diaphragmal, nicht bei frischer Sternotomie"]]
       },
       {
         titel: "Thromboseprophylaxe",
-        uebungen: ["venenpumpe", "hochlagerung", "tiefatmung-rueckstrom", "isometrie-gesamt", "armuebungen-bett", "transfer-ueber-seitlage"]
+        uebungen: ["venenpumpe", "hochlagerung", "tiefatmung-rueckstrom", "isometrie-gesamt", "armuebungen-bett", "transfer-ueber-seitlage", "kreislaufanregung-aufstehen"]
       },
       {
         titel: "Dekubitus- und Kontrakturprophylaxe",
-        uebungen: ["dekubitus-lagerung", "durchbewegen", "umlagerung"]
+        uebungen: ["dekubitus-lagerung", "durchbewegen", "umlagerung", "hautinspektion-fingertest", "hochrutschen-scherkraftarm", ["kgt-schulter-rl", "Im erlaubten Ausmaß"], "kgt-ellbogen-sl", ["kgt-huefte-sl", "Nur wenn die Seitlage erlaubt ist"], "kgt-knie-rl"]
       }
     ],
     quelle: ["KG Chirurgie – Prophylaxen", "KG Chirurgie – Physiotherapie in der Chirurgie"]
@@ -33,7 +33,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Liegephase (RL)",
-        uebungen: ["venenpumpe", ["schleifende-ferse", "Gegensinnig als Kreislaufanregung; betroffen nach Freigabe"], "isometrie-gesamt", ["armuebungen-bett", "Mit dosiertem Widerstand"], "pnf-scapula-post-depression", "kontaktatmung", "brunkow"]
+        uebungen: ["venenpumpe", ["schleifende-ferse", "Gegensinnig als Kreislaufanregung; betroffen nach Freigabe"], "isometrie-gesamt", ["armuebungen-bett", "Mit dosiertem Widerstand"], "pnf-scapula-post-depression", "kontaktatmung", "brunkow", "hautinspektion-fingertest", "kreislaufanregung-aufstehen", ["dehnzuege", "Nur am Arm – kein Zug am Bein"], "einatmung-halten"]
       },
       {
         titel: "Beispiel: stabile Os-pubis-Fraktur Typ A, 5. Tag",
@@ -43,6 +43,10 @@ PT.krankheitsbilder.push(
       {
         titel: "Tonusregulation",
         uebungen: ["heisse-rolle", "pnf-halten-entspannen", "durchbewegen"]
+      },
+      {
+        titel: "KG-Techniken: passiv, assistiv und resistiv bewegen",
+        uebungen: [["kgt-knie-rl", "Variante ohne Hüftflexion – das Becken bleibt ruhig"], ["kgt-huefte-sl", "Erst bei stabiler Fraktur, betroffene Seite oben; Hüftflexion nach Freigabe"], ["kgt-sprunggelenk-bl", "Bauchlage nur nach Freigabe"]]
       }
     ],
     quelle: ["KG Chirurgie – Beckenfrakturen", "KG Chirurgie – Zusammenfassung Mittelkurs"]
@@ -57,11 +61,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Frühphase (Beispiel Typ C, 2. post-op Woche)",
-        uebungen: ["venenpumpe", ["schleifende-ferse", "Assistiv-aktiv unter Bauchspannung"], ["abduktion-schleifend", "Betroffen assistiv, gesund aktiv"], "isometrie-gesamt", ["brunkow", "Ganzkörpergrundspannung mit OEX"], "transfer-ueber-seitlage", ["gangschule-hilfsmittel", "Entlastender Gang mit Gehwagen"]]
+        uebungen: ["venenpumpe", ["schleifende-ferse", "Assistiv-aktiv unter Bauchspannung"], ["abduktion-schleifend", "Betroffen assistiv, gesund aktiv"], "isometrie-gesamt", ["brunkow", "Ganzkörpergrundspannung mit OEX"], "transfer-ueber-seitlage", ["gangschule-hilfsmittel", "Entlastender Gang mit Gehwagen"], ["kgt-knie-rl", "Variante ohne Hüftflexion"]]
       },
       {
         titel: "Ab ca. 4 Wochen",
-        uebungen: ["gewichtsverlagerung-stand", "tubersitz", "bridging", "pnf-pelvis-ant-elevation"]
+        uebungen: ["gewichtsverlagerung-stand", "tubersitz", "bridging", "pnf-pelvis-ant-elevation", ["kgt-huefte-sl", "Abduktion auf dem Quader unter Abnahme der Eigenschwere"]]
       }
     ],
     quelle: ["KG Chirurgie – Frakturen und Luxationen im Bereich des Hüftgelenks", "KG Chirurgie – Zusammenfassung Mittelkurs"]
@@ -76,7 +80,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Beispiel: reponierte Luxation nach ventral, 20 kg TB, 2. Woche",
-        uebungen: [["venenpumpe", "DE/PF, kein Kreisen"], ["schleifende-ferse", "Betroffen bis 60° mit Abheben, Gegenseite bis ca. 90°"], ["abduktion-schleifend", "Nur mit Arztfreigabe, ohne ARO"], ["bridging", "Mit Grundspannung"], "transfer-ueber-seitlage", ["tubersitz", "Hoher Sitz wegen 60°-Grenze"], "gangschule-hilfsmittel"]
+        uebungen: [["venenpumpe", "DE/PF, kein Kreisen"], ["schleifende-ferse", "Betroffen bis 60° mit Abheben, Gegenseite bis ca. 90°"], ["abduktion-schleifend", "Nur mit Arztfreigabe, ohne ARO"], ["bridging", "Mit Grundspannung"], "transfer-ueber-seitlage", ["tubersitz", "Hoher Sitz wegen 60°-Grenze"], "gangschule-hilfsmittel", ["kgt-huefte-sl", "Nur Flexion/Extension bis 60°, keine Rotation; Abduktion nur nach Freigabe"]]
       }
     ],
     quelle: ["KG Chirurgie – Frakturen und Luxationen im Bereich des Hüftgelenks", "KG Chirurgie – Zusammenfassung Mittelkurs"]
@@ -91,11 +95,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "1.–3. Tag post-op",
-        uebungen: ["venenpumpe", ["schleifende-ferse", "Beidseits"], "abduktion-schleifend", "brunkow", "isometrie-gesamt", ["armuebungen-bett", "Theraband – weiterlaufende Bewegung beachten"], "transfer-ueber-seitlage", "sicherer-stand"]
+        uebungen: ["venenpumpe", ["schleifende-ferse", "Beidseits"], "abduktion-schleifend", "brunkow", "isometrie-gesamt", ["armuebungen-bett", "Theraband – weiterlaufende Bewegung beachten"], "transfer-ueber-seitlage", "sicherer-stand", "kreislaufanregung-aufstehen", "einatmung-halten"]
       },
       {
         titel: "4.–7. Tag",
-        uebungen: [["schleifende-ferse", "Mit Abheben der Ferse in max. Flexion"], ["dehnung-adduktoren", "Sanft"], "thomas-dehnung", "aufstehen-stuhl", ["gangschule-hilfsmittel", "3-Punkte-Gang Ebene und Treppe"]]
+        uebungen: [["schleifende-ferse", "Mit Abheben der Ferse in max. Flexion"], ["dehnung-adduktoren", "Sanft"], "thomas-dehnung", "aufstehen-stuhl", ["gangschule-hilfsmittel", "3-Punkte-Gang Ebene und Treppe"], ["kgt-huefte-sl", "Kissen zwischen die Knie; keine Rotation, keine Adduktion über die Mittellinie, Flexion ≤ 90°"]]
       },
       {
         titel: "8.–15. Tag",
@@ -114,7 +118,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Frühphase",
-        uebungen: ["venenpumpe", "hochlagerung", "isometrie-quadriceps", "isometrie-gesamt", ["schleifende-ferse", "Assistiv-aktiv"], "brunkow", "armuebungen-bett", "transfer-ueber-seitlage"]
+        uebungen: ["venenpumpe", "hochlagerung", "isometrie-quadriceps", "isometrie-gesamt", ["schleifende-ferse", "Assistiv-aktiv"], "brunkow", "armuebungen-bett", "transfer-ueber-seitlage", ["kgt-knie-rl", "Im erlaubten Rahmen, kein langer Hebel"], "kreislaufanregung-aufstehen"]
       },
       {
         titel: "Belastungsaufbau",
@@ -137,7 +141,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "8. post-op Woche (Orthese wird abtrainiert)",
-        uebungen: ["patellamobilisation", "narbenmobilisation", ["schleifende-ferse", "Heel-Slides bis zur freigegebenen Grenze"], ["wandlehnen", "Max. 40°"], ["step-up", "Niedrige Stufe, max. 40°"], "einbeinstand", "tandem", "bridging", "sidesteps-theraband", "wadenpresse", "slr", "beinachse-spiegel", ["ergometer", "Erst bei Flexion > 100°, geringer Widerstand"], "treppensteigen"]
+        uebungen: ["patellamobilisation", "narbenmobilisation", ["schleifende-ferse", "Heel-Slides bis zur freigegebenen Grenze"], ["wandlehnen", "Max. 40°"], ["step-up", "Niedrige Stufe, max. 40°"], "einbeinstand", "tandem", "bridging", "sidesteps-theraband", "wadenpresse", "slr", "beinachse-spiegel", ["ergometer", "Erst bei Flexion > 100°, geringer Widerstand"], "treppensteigen", ["kgt-knie-rl", "Flexion bis zur freigegebenen Grenze"]]
       }
     ],
     quelle: ["KG Chirurgie – Patellafraktur (Zusammenfassung)", "KG Chirurgie – Patellafraktur Einteilung, ICF-Befund, Maßnahmen", "KG Chirurgie – Frakturen und Verletzungen des Kniegelenks"]
@@ -152,7 +156,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["hochlagerung", "milde-kaelte", "venenpumpe", "isometrie-quadriceps", "isometrie-ischios", "patellamobilisation", ["schleifende-ferse", "Unter Abnahme der Eigenschwere"], "hueftbewegen-gestrecktes-knie", "gangschule-hilfsmittel"]
+        uebungen: ["hochlagerung", "milde-kaelte", "venenpumpe", "isometrie-quadriceps", "isometrie-ischios", "patellamobilisation", ["schleifende-ferse", "Unter Abnahme der Eigenschwere"], "hueftbewegen-gestrecktes-knie", "gangschule-hilfsmittel", ["kgt-knie-rl", "Passiv bis assistiv unter Abnahme der Eigenschwere"]]
       }
     ],
     quelle: ["KG Chirurgie – Frakturen und Verletzungen des Kniegelenks"]
@@ -175,7 +179,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "3.–6. Woche",
-        uebungen: ["bridging", "sidesteps-theraband", ["ergometer", "Wenn Flexion > 100°"], ["einbeinstand", "Ab 5. Woche"], "beinachse-spiegel"]
+        uebungen: ["bridging", "sidesteps-theraband", ["ergometer", "Wenn Flexion > 100°"], ["einbeinstand", "Ab 5. Woche"], "beinachse-spiegel", ["kgt-knie-rl", "Im Rahmen der Orthesenfreigabe; resistive Kniestreckung in offener Kette nicht vor der 12. Woche"]]
       },
       {
         titel: "7.–12. Woche und später",
@@ -194,11 +198,11 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Entlastungsphase",
-        uebungen: ["hochlagerung", ["venenpumpe", "Nicht betroffenes Bein; betroffen je nach Versorgung Zehen"], "isometrie-gesamt", "schleifende-ferse", "armuebungen-bett", "gangschule-hilfsmittel", "mld-bein"]
+        uebungen: ["hochlagerung", ["venenpumpe", "Nicht betroffenes Bein; betroffen je nach Versorgung Zehen"], "isometrie-gesamt", "schleifende-ferse", "armuebungen-bett", "gangschule-hilfsmittel", "mld-bein", "kreislaufanregung-aufstehen"]
       },
       {
         titel: "Ab Vollbelastung",
-        uebungen: ["einbeinstand", "pro-supination-ball", "wadenpresse", "sidesteps-theraband", "dehnung-wade", "gehen-richtungswechsel"]
+        uebungen: ["einbeinstand", "pro-supination-ball", "wadenpresse", "sidesteps-theraband", "dehnung-wade", "gehen-richtungswechsel", ["kgt-sprunggelenk-bl", "Ab Freigabe auch Pro-/Supination; resistiv zur Kräftigung"]]
       }
     ],
     quelle: ["KG Chirurgie – Proximale Femur- und Sprunggelenksfrakturen"]
@@ -217,7 +221,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Ergänzend",
-        uebungen: ["dehnung-pectoralis", "scapulasetting", "aufrichten-schulterkreisen", "rudern-theraband"]
+        uebungen: ["dehnung-pectoralis", "scapulasetting", "aufrichten-schulterkreisen", "rudern-theraband", ["kgt-schulter-rl", "Bewegungsstabil: nur passiv/assistiv mit Führungskontakt"], ["kgt-schulter-sitz", "Belastungsstabil: resistiv"], ["kgt-ellbogen-sl", "Distale Oberarmfraktur: Ellbogen und Unterarm; resistiv erst belastungsstabil"]]
       }
     ],
     quelle: ["PNF – Fallbeispiel Oberarmfraktur (Schonhaltung)", "PNF – Fallbeispiel distale Oberarmfraktur", "PNF – Bewegungsstabil (Fallbeispiele)"]

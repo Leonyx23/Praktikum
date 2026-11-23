@@ -6,7 +6,7 @@
  * (gelb – rot – grün – blau – schwarz – silber – gold).
  */
 window.PT = {
-  version: "1.0.0",
+  version: "1.2.0",
 
   fachbereiche: [
     {
@@ -75,6 +75,7 @@ window.PT = {
     kraft:        { name: "Kräftigung & Stabilisation" },
     koordination: { name: "Koordination & Gleichgewicht" },
     mobilisation: { name: "Mobilisation & Manuelle Techniken" },
+    kgtechnik:    { name: "KG-Techniken (Grifftechniken)" },
     dehnung:      { name: "Dehnung" },
     pnf:          { name: "PNF" },
     neuro:        { name: "Bobath & Neurorehabilitation" },
