@@ -71,7 +71,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Älteres Kind",
-        uebungen: ["bobath-sitz-gewichtsverlagerung", "bobath-bewegungsuebergaenge", "sprunggelenk-dex-pflex", "dehnung-wade", "einbeinstand", "stepper", "pnf-mattenprogramm"]
+        uebungen: ["bobath-sitz-gewichtsverlagerung", "bobath-bewegungsuebergaenge", "sprunggelenk-dex-pflex", "dehnung-wade", "einbeinstand", "stepper", "pnf-mattenprogramm", ["kgt-sprunggelenk-bl", "Dorsalextension: Spitzfußprophylaxe"], ["kgt-huefte-sl", "Abduktion und Extension gegen Adduktoren- und Beugespastik"], ["kgt-knie-rl", "Volle Extension erhalten (Ischios)"]]
       }
     ],
     quelle: ["KG Pädi – Handling / Schoßbehandlung", "KG Pädi – Pädi Einführung", "Bobath – Einführung"]
@@ -161,7 +161,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["superman-theraband", "bridging-theraband", "bruegger-rumpf", "rudern-theraband", ["dreh-dehnlage", "Gedehnte Seite belüften"], "thoraxmobilisation", "pnf-mattenprogramm", "pnf-lifting"]
+        uebungen: ["superman-theraband", "bridging-theraband", "bruegger-rumpf", "rudern-theraband", ["dreh-dehnlage", "Gedehnte Seite belüften"], "thoraxmobilisation", "pnf-mattenprogramm", "pnf-lifting", ["kgt-schulter-sitz", "Resistiv: Flexion und Außenrotation für die Aufrichtung"]]
       }
     ],
     quelle: ["Theraband – Rumpfstabilisation", "Theraband – Thera-Band-Grundübungen nach Brügger", "KG Innere – Lunge 1"]
@@ -176,7 +176,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["igelball-fussarbeit", "dynamisches-gehen", ["ring-fuss-sitz", "Ring mit Zehen aufheben und einspreizen"], "pro-supination-ball", "wadenpresse", "einbeinstand", "beinachse-spiegel"]
+        uebungen: ["igelball-fussarbeit", "dynamisches-gehen", ["ring-fuss-sitz", "Ring mit Zehen aufheben und einspreizen"], "pro-supination-ball", "wadenpresse", "einbeinstand", "beinachse-spiegel", ["kgt-sprunggelenk-bl", "Resistiv: Supination kräftigen"]]
       }
     ],
     quelle: ["KG Gyn – Übungen für Beckenbodentraining", "KG Innere – Hockergymnastik", "MTT – Gruppe 3"]

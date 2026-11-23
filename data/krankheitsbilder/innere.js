@@ -22,7 +22,7 @@ PT.krankheitsbilder.push(
           ["transfer-ueber-seitlage", "Beim Ausatmen aufsetzen, sofort Fußsohlenkontakt"],
           "abreiben-ruecken",
           "puls-selbstkontrolle"
-        ]
+        , ["kreislaufanregung-aufstehen", "Vor dem Transfer über die Seitlage"]]
       },
       {
         titel: "Alternativen und Steigerung",
@@ -48,7 +48,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Frühphase",
-        uebungen: ["fussbewegungsserie", "venenpumpe", "kontaktatmung", "basalatmung", "transfer-ueber-seitlage", "puls-selbstkontrolle"]
+        uebungen: ["fussbewegungsserie", "venenpumpe", "kontaktatmung", "basalatmung", "transfer-ueber-seitlage", "puls-selbstkontrolle", "kreislaufanregung-aufstehen"]
       },
       {
         titel: "Mobilisation und Intervalltherapie",
@@ -73,7 +73,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Stufe I (ca. 1.–2. Tag, ~25 Watt): Übungen im Bett",
-        uebungen: ["fussbewegungsserie", "hueftserie-bett", "armuebungen-liegen", "kontaktatmung", "igelball-koerperwahrnehmung", "puls-selbstkontrolle", "transfer-ueber-seitlage"]
+        uebungen: ["fussbewegungsserie", "hueftserie-bett", "armuebungen-liegen", "kontaktatmung", "igelball-koerperwahrnehmung", "puls-selbstkontrolle", "transfer-ueber-seitlage", ["kreislaufanregung-aufstehen", "Vor dem ersten Aufsitzen"]]
       },
       {
         titel: "Stufe II (ca. 3.–6. Tag, ~50 Watt): Übungen im Sitz",
@@ -172,7 +172,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Frühphase",
-        uebungen: ["kontaktatmung", ["hustentechnik", "Husten mit Sternumschutz"], "atemtrainer", "schnelle-lagerung", ["transfer-ueber-seitlage", "Drehen en bloc, nicht mit Armen hochdrücken"], "venenpumpe", ["hochlagerung", "Bein mit Venenentnahme"]]
+        uebungen: ["kontaktatmung", ["hustentechnik", "Husten mit Sternumschutz"], "atemtrainer", "schnelle-lagerung", ["transfer-ueber-seitlage", "Drehen en bloc, nicht mit Armen hochdrücken"], "venenpumpe", ["hochlagerung", "Bein mit Venenentnahme"], ["kreislaufanregung-aufstehen", "Aufstehen ohne Abstützen mit den Armen"]]
       },
       {
         titel: "Mobilisation",
@@ -246,7 +246,7 @@ PT.krankheitsbilder.push(
     id: "pneumonie",
     fach: "innere",
     name: "Pneumonie",
-    kurz: "Akute oder chronische Entzündung der Lunge (Broncho-, Lobär-, interstitielle Pneumonie); Fieber, anfangs trockener, später produktiver Husten, Dyspnoe.",
+    kurz: "Akute oder chronische Entzündung der Lunge (Broncho-, Lobär-, interstitielle Pneumonie; ambulant oder im Krankenhaus erworben); Fieber, anfangs trockener, später produktiver Husten, Dyspnoe. Besonders gefährdet: ältere Menschen, Säuglinge und Kleinkinder, Menschen mit geschwächtem Immunsystem oder chronischen Herz-, Lungen- und Nierenerkrankungen, Asthma.",
     ziele: ["Ventilationsbedingungen verbessern", "Atelektasen vermeiden", "Sekrettransport fördern, Abhustenschulung", "Kreislauf stabilisieren"],
     cave: ["Im Akutstadium NIE: schnelle tiefe Atemzüge, heiße Rolle/heiße Tücher, Hackungen, Klopfungen, Klatschungen", "Bettruhe und Fieber beachten"],
     phasen: [
@@ -256,7 +256,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Wache Patienten",
-        uebungen: ["kontaktatmung", "schnueffelnde-einatmung", "gaehnende-einatmung", "lippenbremse", "huffing", "atemtrainer", "drainagelagerung", "fussbewegungsserie", "transfer-ueber-seitlage"]
+        uebungen: ["kontaktatmung", "schnueffelnde-einatmung", "gaehnende-einatmung", "lippenbremse", "huffing", "atemtrainer", "drainagelagerung", "fussbewegungsserie", "transfer-ueber-seitlage", ["kreislaufanregung-aufstehen", "Vor jeder Mobilisation"]]
       },
       {
         titel: "Rekonvaleszenz (z. B. 78 J., Z. n. Pneumonie, AZ niedrig)",
@@ -264,7 +264,7 @@ PT.krankheitsbilder.push(
         uebungen: ["pnf-scapula-post-depression", "pnf-massenextension", ["bridging", "Mit Stabilisierender Umkehr"], "pnf-halleluja", "pnf-pelvis-ant-elevation", ["pnf-stuetz", "Bilateral, Agonistische Umkehr"], ["pnf-anschnall", "Mit Stretch"], "gangschule-hilfsmittel"]
       }
     ],
-    quelle: ["KG Innere – Lunge 3", "KG Innere – Innere Medizin (Herr Sauer)", "PNF – Fallbeispiel 78 J. Z. n. Pneumonie"]
+    quelle: ["KG Innere – Lunge 3", "KG Innere – Innere Medizin (Herr Sauer)", "PNF – Fallbeispiel 78 J. Z. n. Pneumonie", "KG Techniken – Pneumonieprophylaxe"]
   },
   {
     id: "akute-bronchitis",
@@ -306,7 +306,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["venenpumpe", "hochlagerung", "tiefatmung-rueckstrom", "fusskreisen-sitz", "mld-bein", "theraband-sitz-beine", "gehen-ebene", "wadenpresse"]
+        uebungen: ["venenpumpe", "hochlagerung", "tiefatmung-rueckstrom", "fusskreisen-sitz", "mld-bein", "theraband-sitz-beine", "gehen-ebene", "wadenpresse", ["wechselreize", "Kalte Beingüsse, keine Wärme auf die Beine"]]
       }
     ],
     quelle: ["Lymphdrainage – Manuelle Lymphdrainage Praxis", "KG Chirurgie – Prophylaxen"]
@@ -321,7 +321,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Im Bett und am Bettrand",
-        uebungen: ["umlagerung", "dekubitus-lagerung", "venenpumpe", "durchbewegen", ["bridging", "Becken heben zum Hochrutschen"], "transfer-ueber-seitlage", "bettkante-stuhl"]
+        uebungen: ["umlagerung", "dekubitus-lagerung", "venenpumpe", "durchbewegen", ["bridging", "Becken heben zum Hochrutschen"], "transfer-ueber-seitlage", "bettkante-stuhl", "hautinspektion-fingertest", "hochrutschen-scherkraftarm", "kreislaufanregung-aufstehen"]
       },
       {
         titel: "Stand und Gehen",
@@ -330,8 +330,77 @@ PT.krankheitsbilder.push(
       {
         titel: "Gruppe",
         uebungen: ["hockergymnastik", "stab-uebungen-sitz", "ball-sitz", "ente-am-teich"]
+      },
+      {
+        titel: "KG-Techniken: passiv, assistiv und resistiv bewegen",
+        uebungen: [["kgt-schulter-rl", "Kontrakturprophylaxe bei Bettlägerigkeit"], "kgt-ellbogen-sl", ["kgt-huefte-sl", "Lagewechsel in die SL gleich mit nutzen"], ["kgt-knie-rl", "Von passiv über assistiv bis resistiv steigern"], ["kgt-schulter-sitz", "Im Sitz am Bettrand oder im Stuhl"]]
       }
     ],
     quelle: ["KG Innere – Transfers erarbeiten (M. Bloch)", "KG Innere – Innere Medizin", "KG Innere – Hockergymnastik", "PNF – Fallbeispiel 78 J. Z. n. Pneumonie"]
+  },
+  {
+    id: "kreislaufstoerung",
+    fach: "innere",
+    name: "Kreislaufstörung: Hypotonie und orthostatische Dysregulation",
+    kurz: "Unzureichende Versorgung des Körpers mit Blut und Sauerstoff: Schwindel, Müdigkeit, niedriger Blutdruck bis zur Ohnmacht. Einteilung: Hypotonie, orthostatische Dysregulation (Probleme beim Aufstehen), Kollaps/Synkope. Ursachen u. a. zu langes Stehen, schnelles Aufstehen, Blutverlust, Dehydration, Herzschwäche, Bewegungsmangel und Stress.",
+    ziele: ["Herz-Kreislauf-System stabilisieren und aktivieren", "Langsames Aufrichten in Etappen einüben", "Muskelpumpe und Atmung nutzen", "Körperliche Aktivität und Gefäßtraining (Kalt-Warm-Wechselreize)", "Auf ausreichende Flüssigkeit hinweisen"],
+    cave: ["Vor und nach der Mobilisation Puls und RR messen", "Bei Schwindel, Schwarzwerden vor Augen, Blässe oder Schweiß sofort hinlegen, Beine hoch", "Risikopatienten: ältere Menschen, Herz-Kreislauf-Erkrankungen, niedriger Blutdruck, Übergewicht, Diabetes", "Synkopen ärztlich abklären lassen (EKG)"],
+    phasen: [
+      {
+        titel: "Vor dem Aufstehen",
+        uebungen: ["kreislaufanregung-aufstehen", "fussbewegungsserie", "venenpumpe", "tiefatmung-rueckstrom", "transfer-ueber-seitlage", "puls-selbstkontrolle"]
+      },
+      {
+        titel: "Kreislauftraining",
+        uebungen: ["wechselreize", "theraband-sitz-beine", "marschieren-stand", "wadenpresse", "gehen-ebene", ["ergometer", "Ausdauer in kleinen Schritten steigern"]]
+      }
+    ],
+    quelle: ["KG Techniken – Kreislaufanregung", "KG Innere – Herzinsuffizienz", "KG Chirurgie – Prophylaxen"]
+  },
+  {
+    id: "dekubitus",
+    fach: "innere",
+    name: "Dekubitus – Gefährdung und Prophylaxe",
+    kurz: "Schädigung von Haut und darunterliegendem Gewebe durch anhaltenden Druck und Minderdurchblutung („Wundliegen“). Ursachen: Immobilität, Druck, Scherkräfte beim Hochziehen, Feuchtigkeit (Schweiß, Inkontinenz), Reibung, Mangelernährung. Grad 1 (nicht wegdrückbare Rötung) bis Grad 4 (tiefer Gewebsschaden, Knochen sichtbar).",
+    ziele: ["Druck entlasten, Lage regelmäßig wechseln", "Scher- und Reibungskräfte vermeiden", "Haut früh kontrollieren (Fingertest)", "Eigenbewegung und Mobilität fördern"],
+    cave: ["Gefährdet: Bettlägerige (Koma, Schlaganfall), ältere Menschen mit dünner Haut, Durchblutungsstörungen, Über- und Untergewicht, schlechte Hautpflege", "Typische Stellen: Steißbein, Fersen, Hüftknochen, Ellenbogen, Schulterblätter, Hinterkopf", "Gerötete Stellen nicht massieren oder reiben", "Ab Grad 2 Arzt und Wundmanagement einbeziehen"],
+    phasen: [
+      {
+        titel: "Erkennen",
+        uebungen: ["hautinspektion-fingertest"]
+      },
+      {
+        titel: "Entlasten",
+        uebungen: [["umlagerung", "Mindestens alle 2 Stunden"], "dekubitus-lagerung", "hochrutschen-scherkraftarm"]
+      },
+      {
+        titel: "Bewegen",
+        uebungen: ["bridging", "durchbewegen", ["kgt-huefte-sl", "Passiv bis assistiv, Lagewechsel gleich mit nutzen"], "kgt-knie-rl", "kreislaufanregung-aufstehen", "transfer-ueber-seitlage"]
+      }
+    ],
+    quelle: ["KG Techniken – Dekubitusprophylaxe", "KG Chirurgie – Prophylaxen"]
+  },
+  {
+    id: "thrombose",
+    fach: "innere",
+    name: "Thrombose – Gefährdung und Prophylaxe",
+    kurz: "Verschluss oder Verengung eines Blutgefäßes durch ein Blutgerinnsel. Entsteht durch veränderte Blutzusammensetzung, geschädigte Gefäßwand und gestörten Blutfluss (Virchow-Trias); am häufigsten in den tiefen Bein- und Beckenvenen, mit der Gefahr einer Lungenembolie.",
+    ziele: ["Venösen Rückstrom beschleunigen (Muskelpumpe, Hochlagerung, Atmung)", "Früh mobilisieren", "Risikopatienten erkennen und anleiten"],
+    cave: ["Risikopatienten: nach OP (v. a. Hüfte, Knie, Bauch, Becken), Krebs, Gerinnungsstörungen, Krampfadern, höheres Alter, Bettlägerigkeit, Schwangerschaft und Wochenbett, lange Reisen, Übergewicht, Rauchen, hormonelle Medikamente", "Bei Verdacht (Schwellung, Schmerz, Überwärmung, Hautverfärbung) keine Übungen am Bein und keine MLD – sofort Arzt informieren", "Nach gesicherter Thrombose nur nach ärztlicher Anordnung mobilisieren (Antikoagulation, Kompression)"],
+    phasen: [
+      {
+        titel: "Im Bett",
+        uebungen: ["venenpumpe", "hochlagerung", "tiefatmung-rueckstrom", "fussbewegungsserie", "durchbewegen"]
+      },
+      {
+        titel: "Mobilisation",
+        uebungen: ["kreislaufanregung-aufstehen", "transfer-ueber-seitlage", "gehen-ebene", "theraband-sitz-beine", "wadenpresse"]
+      },
+      {
+        titel: "Reise und Alltag",
+        uebungen: [["fusskreisen-sitz", "Bei langen Reisen stündlich"], ["venenpumpe", "Auch im Sitz, z. B. im Flugzeug"]]
+      }
+    ],
+    quelle: ["KG Techniken – Handout Thromboseprophylaxe", "KG Chirurgie – Prophylaxen"]
   }
 );

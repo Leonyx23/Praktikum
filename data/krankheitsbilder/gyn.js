@@ -18,7 +18,7 @@ PT.krankheitsbilder.push(
       },
       {
         titel: "Venen und Alltag",
-        uebungen: ["venenpumpe", "hochlagerung", "walking", "kontinentes-buecken-heben", "hustendreh", "transfer-ueber-seitlage"]
+        uebungen: ["venenpumpe", "hochlagerung", "walking", "kontinentes-buecken-heben", "hustendreh", "transfer-ueber-seitlage", ["kreislaufanregung-aufstehen", "Langsam aufstehen, im letzten Drittel über die Seite"], ["wechselreize", "Kühle Beingüsse bei schweren Beinen – keine Wärme auf Krampfadern"]]
       }
     ],
     quelle: ["KG Gyn – Schwangerschaft", "KG Gyn – Der Beckenboden im Fadenkreuz", "KG Gyn – Übungen für Beckenbodentraining"]
@@ -33,7 +33,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Grundlage",
-        uebungen: ["bauchatmung", "therapeutische-bauchlage", "transfer-ueber-seitlage", "venenpumpe", "hustendreh"]
+        uebungen: ["bauchatmung", "therapeutische-bauchlage", "transfer-ueber-seitlage", "venenpumpe", "hustendreh", ["kreislaufanregung-aufstehen", "Postpartale Hypotonie: vor dem ersten Aufstehen"]]
       },
       {
         titel: "Beckenboden sensibilisieren",
@@ -56,7 +56,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Erste Tage",
-        uebungen: ["venenpumpe", "kontaktatmung", ["bauchatmung", "Hände schützend auf den Unterbauch"], ["hustendreh", "Unterbauch mit beiden Händen halten"], "transfer-ueber-seitlage", "seerose"]
+        uebungen: ["venenpumpe", "kontaktatmung", ["bauchatmung", "Hände schützend auf den Unterbauch"], ["hustendreh", "Unterbauch mit beiden Händen halten"], "transfer-ueber-seitlage", "seerose", ["kreislaufanregung-aufstehen", "Vor dem ersten Aufstehen nach der OP"]]
       },
       {
         titel: "Im Verlauf",
@@ -189,7 +189,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["venenpumpe", "tiefatmung-rueckstrom", "bauchatmung", ["tuermchen", "Bauchspannung als Venenpumpe"], "hochlagerung", "dynamisches-gehen"]
+        uebungen: ["venenpumpe", "tiefatmung-rueckstrom", "bauchatmung", ["tuermchen", "Bauchspannung als Venenpumpe"], "hochlagerung", "dynamisches-gehen", "kreislaufanregung-aufstehen", ["wechselreize", "Nur kühle Güsse; nicht bei Thromboseverdacht"]]
       }
     ],
     quelle: ["KG Gyn – Komplikationen im Wochenbett", "KG Gyn – Behandlung im Frühwochenbett"]

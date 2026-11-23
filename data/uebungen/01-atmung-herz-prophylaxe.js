@@ -838,11 +838,12 @@ PT.uebungen.push(
     ablauf: [
       "Gefährdete Stellen entlasten: Kreuzbein, Fersen, Trochanter, Schulterblätter, Ellbogen, Knöchel, Fibulaköpfchen.",
       "Viel Körperfläche aufliegen lassen, normentsprechende Gelenkstellungen.",
-      "Faltenfreie Unterlage, Haut abreiben und bürsten."
+      "Faltenfreie, trockene Unterlage; Haut pflegen und trocken halten (Schweiß, Inkontinenz)."
     ],
-    dosierung: "Bei jedem Lagewechsel kontrollieren.",
+    dosierung: "Bei jedem Lagewechsel kontrollieren (Fingertest).",
     wirkung: ["Verhindert Druckgeschwüre"],
-    quelle: ["KG Chirurgie – Prophylaxen"]
+    achtung: ["Gerötete oder gefährdete Stellen nicht massieren, reiben oder bürsten", "Beim Hochrutschen anheben statt ziehen (Scherkräfte)"],
+    quelle: ["KG Chirurgie – Prophylaxen", "KG Techniken – Dekubitusprophylaxe"]
   },
   {
     id: "a-lagerung",

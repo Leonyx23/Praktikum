@@ -10,7 +10,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Gruppe 1: passive Maßnahmen",
-        uebungen: ["schnelle-lagerung", "body-scan", "igelball-koerperwahrnehmung", "atmung-4-6", "koerpergrenzen"]
+        uebungen: ["schnelle-lagerung", "body-scan", "igelball-koerperwahrnehmung", "atmung-4-6", "koerpergrenzen", ["kreislaufanregung-aufstehen", "Antidepressiva: langsam aufstehen (Schwindel)"]]
       },
       {
         titel: "Gruppe 2: verstärkende Aktivierung",
@@ -53,6 +53,11 @@ PT.krankheitsbilder.push(
       {
         titel: "Übungen",
         uebungen: ["koerperschema", ["koerpergrenzen", "Sandsäckchen, Einwickeln – im Sitz statt Liegen"], "walking", "stab-uebungen-sitz", "ringspiele-partner", "gehmeditation", "tai-chi-qigong"]
+      },
+      {
+        titel: "Katatoner Stupor: Prophylaxen",
+        info: "Liegen lassen, Umfeld absichern, jede Handlung ankündigen.",
+        uebungen: [["hautinspektion-fingertest", "Bei Bewegungslosigkeit regelmäßig"], "umlagerung", ["kgt-schulter-rl", "Erklärendes Tun, ruhig und flächig greifen"], "kgt-huefte-sl", "kgt-knie-rl", ["venenpumpe", "Passiv, wenn keine Eigenaktivität möglich ist"], "kontaktatmung"]
       }
     ],
     quelle: ["KG Psych – Examensfragen", "KG Psych – Einführung PT Psychiatrie", "KG Psych – Inhaltsverzeichnis"]
@@ -112,7 +117,7 @@ PT.krankheitsbilder.push(
     phasen: [
       {
         titel: "Übungen",
-        uebungen: ["walking", "ergometer", "pmr", "atmung-4-6", "energizing", "aktivitaetsplanung", "resilienz", "tandem", "einbeinstand"]
+        uebungen: ["walking", "ergometer", "pmr", "atmung-4-6", "energizing", "aktivitaetsplanung", "resilienz", "tandem", "einbeinstand", ["kreislaufanregung-aufstehen", "Im Entzug Kreislauf beachten"]]
       }
     ],
     quelle: ["KG Psych – Examensfragen", "KG Psych – Inhaltsverzeichnis"]
@@ -128,6 +133,10 @@ PT.krankheitsbilder.push(
       {
         titel: "Übungen",
         uebungen: ["hockergymnastik", "ente-am-teich", "ball-sitz", "stab-uebungen-sitz", "schwungtuch", "ringspiele-partner", "alltagsbewegungen-nachmachen", "aufstehen-stuhl", "gewichtsverlagerung-stand", "gehen-ebene"]
+      },
+      {
+        titel: "Bettlägerige Patienten",
+        uebungen: ["hautinspektion-fingertest", "hochrutschen-scherkraftarm", ["kgt-schulter-rl", "Bewegungen vormachen und ankündigen"], "kgt-knie-rl", "kreislaufanregung-aufstehen"]
       }
     ],
     quelle: ["KG Psych – Examensfragen", "KG Psych – Inhaltsverzeichnis", "KG Innere – Hockergymnastik"]

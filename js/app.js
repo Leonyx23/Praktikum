@@ -244,6 +244,17 @@
       "</div>" +
       '<section class="section"><h2>Durchführung</h2><ol class="steps">' +
       ex.ablauf.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol></section>";
+    if (ex.technik && ex.technik.length) {
+      var rows = [["proximal", "Proximale Hand"], ["distal", "Distale Hand"], ["weiterlaufend", "Weiterlaufende Bewegung"], ["fixation", "Fixation"], ["resistiv", "Resistiver Griff"]];
+      html += '<section class="section"><h2>Grifftechnik</h2><div class="grips">' +
+        ex.technik.map(function (t) {
+          return '<div class="grip"><h3>' + esc(t.bewegung) + "</h3>" +
+            (t.hinweis ? '<p class="grip-note">' + esc(t.hinweis) + "</p>" : "") +
+            "<dl>" + rows.filter(function (r) { return t[r[0]]; }).map(function (r) {
+              return "<dt>" + r[1] + "</dt><dd>" + esc(t[r[0]]) + "</dd>";
+            }).join("") + "</dl></div>";
+        }).join("") + "</div></section>";
+    }
     if (ex.wirkung && ex.wirkung.length) {
       html += '<section class="section"><h2>Wirkung und Ziel</h2><ul class="bullets">' +
         ex.wirkung.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></section>";
@@ -364,7 +375,7 @@
     var words = q.split(/\s+/);
     function match(text) { var h = norm(text); return words.every(function (w) { return h.indexOf(w) !== -1; }); }
     var kbs = PT.krankheitsbilder.filter(function (k) { return match(k.name + " " + k.kurz + " " + fachById[k.fach].name); });
-    var exs = PT.uebungen.filter(function (u) { return match(u.name + " " + u.aste + " " + (u.wirkung || []).join(" ") + " " + PT.arten[u.art].name); });
+    var exs = PT.uebungen.filter(function (u) { return match(u.name + " " + u.aste + " " + (u.wirkung || []).join(" ") + " " + PT.arten[u.art].name + " " + (u.technik || []).map(function (t) { return t.bewegung; }).join(" ")); });
     if (!kbs.length && !exs.length) {
       box.innerHTML = '<div class="empty"><h2>Nichts gefunden</h2><p class="muted">Versuche einen kürzeren oder anderen Begriff, z. B. „Knie“ statt „Kniegelenk“.</p></div>';
       return;

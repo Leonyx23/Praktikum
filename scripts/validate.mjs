@@ -31,6 +31,12 @@ for (const u of PT.uebungen) {
   if (exIds.has(u.id)) errors.push(`Doppelte Übungs-ID: ${u.id}`);
   exIds.set(u.id, u);
   if (!PT.arten[u.art]) errors.push(`Übung ${u.id}: unbekannte Art "${u.art}"`);
+  if (u.technik) {
+    if (!Array.isArray(u.technik) || !u.technik.length) errors.push(`Übung ${u.id}: "technik" muss eine nicht leere Liste sein`);
+    else u.technik.forEach((t, i) => {
+      for (const key of ["bewegung", "proximal", "distal"]) if (!t[key]) errors.push(`Übung ${u.id}: technik[${i}] ohne "${key}"`);
+    });
+  }
   for (const key of ["name", "aste", "ablauf", "quelle"]) {
     if (!u[key] || (Array.isArray(u[key]) && !u[key].length)) errors.push(`Übung ${u.id}: Feld "${key}" fehlt`);
   }
